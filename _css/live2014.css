@@ -1,7 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.author {
+.title {
+	color: #00a900;
+}
+.partner {
+	font-size: medium;
+	font-weight: bold;
+	color: #23c66;
 }
 .company {
 }
