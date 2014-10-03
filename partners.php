@@ -7,8 +7,7 @@
     <link href="_css/live2014.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h1>Speakers &amp; Partners</h1>
-<p><img src="_img/partners/Forrester_Research_Logo.png" width="158" height="59" alt="Forrester"></p>
+<h1><img src="_img/partners/Forrester_Research_Logo.png" width="158" height="59" alt="Forrester"></h1>
 <p><span class="partner">Diego Lo Giudice</span><br>
   <span class="title">Gartner Principal Analyst, APPLICATION DEVELOPMENT &amp; DELIVERY</span><br>
   Diego primarily contributes to and advises on Forrester's offerings for Application Development &amp; Delivery Professionals. He partners with Forrester's global application leaders and is a leading expert on SDLC processes and practices, covering topics such as Agile development, Agile and Lean transformations, Agile development sourcing strategies and services, Agile testing practices and tools, DevOps, and software testing and quality, with a key focus on systems of engagement. Diego also covers software delivery metrics, artificial intelligence, and open source governance.</p>
