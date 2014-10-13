@@ -53,8 +53,12 @@ function getTime($start,$end) {
 		if (!is_null($sessionObject->get("location"))) {
 			echo "<div class=\"sessionLocation\">Location: " . $sessionObject->get("location") . "</div>\n";
 		}
-		echo "<div class=\"sessionDescription\">Description: " . $sessionObject->get("description") . "</div>\n";
-		echo "<div class=\"sessionSpeakers\">Presenter(s): " . $sessionObject->get("presenter") . "</div>\n";
+		if (!is_null($sessionObject->get("description"))) {
+			echo "<div class=\"sessionDescription\">Description: " . $sessionObject->get("description") . "</div>\n";
+		}
+		if (!is_null($sessionObject->get("presenter"))) {
+			echo "<div class=\"sessionSpeakers\">Presenter(s): " . $sessionObject->get("presenter") . "</div>\n";
+		}
 	} 
   ?> 
 		
