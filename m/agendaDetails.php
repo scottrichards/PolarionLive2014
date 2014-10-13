@@ -19,46 +19,46 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="../jquery.mobile-1.4.4/jquery.mobile-1.4.4.min.css" rel="stylesheet" type="text/css" />
 	<link href="../_css/adminStyles.css" rel="stylesheet" type="text/css" />
+	<link href="../_css/sessionDetails.css" rel="stylesheet" type="text/css" />
 <script src="../jquery.mobile-1.4.4/jquery-1.4.4.min.js"></script>
 	<script src="../jquery.mobile-1.4.4/jquery.mobile-1.4.4.min.js"></script>
 </head>
 
 <body>
 <div data-role="page">
-<?php 
-	$query = new ParseQuery("Agenda");
-	$query->ascending("start");
-	$results = $query->find();
-  ?> 
-	<div data-role="header">
-		<h1><img src="../_img/polarion_logo_240x264.gif" width="62" height="67" alt="Polarion" />Polarion Live 2014 </h1>
-	</div><!-- /header -->
-	<h2>Agenda</h2>
-	<div role="main" class="ui-content">
 
-		<table width="90%" border="1" cellspacing="0" cellpadding="0">
-		  <tr>
-		    <th>Session</th>
-		    <th>Time</th>
-		    <th>Location</th>
-	    </tr>
-		<?php 
- 
-	
-	if (count($results) > 0) {
-	
-		for ($i = 0; $i < count($results); $i++) { 
-			echo "<tr>";
-		  	$object = $results[$i];
-		  	echo "<td>" . $object->get('session') . "</td>";
-				echo "<td>"  . "</td>";
-				echo "<td>" . $object->get('location') . "</td>";
-			echo "</tr>";
-		}
+	<div data-role="header">
+		<h2><img src="../_img/polarion_logo_240x264.gif" width="62" height="67" alt="Polarion" />Session Details </h2>
+	</div><!-- /header -->
+	<div role="main" class="ui-content">
+	<?php 
+function getTime($start,$end) {
+	$timeStr = "";
+	if (!is_null($start)) {
+		$timeStr = $start->format("g:i");
 	}
+	if (!is_null($end)) {
+		$timeStr .=  " - " .  $end->format("g:i");
+	}
+  return $timeStr;
+}
+
+	$query = new ParseQuery("Agenda");
+	$objectId = $_GET["id"];
+//	echo "ObjectId = " . $_GET["id"];
+	if (!is_null($objectId)) {
+		$sessionObject = $query->get($objectId);
+		echo "<div class=\"sessionTime\">Time: " . getTime($sessionObject->get("start"),$sessionObject->get("end")) . "</div>\n";
+		if (!is_null($sessionObject->get("location"))) {
+			echo "<div class=\"sessionLocation\">Location: " . $sessionObject->get("location") . "</div>\n";
+		}
+		echo "<div class=\"sessionName\">Session: " . $sessionObject->get("session") . "</div>\n";
+		echo "<div class=\"sessionDescription\">Description: " . $sessionObject->get("description") . "</div>\n";
+		echo "<div class=\"sessionSpeakers\">Presenter(s): " . $sessionObject->get("presenter") . "</div>\n";
+	} 
   ?> 
-	  </table>
-  <p>&nbsp;</p>
+		
+  	<div></div>
 	</div><!-- /content -->
 
 </div><!-- /page -->

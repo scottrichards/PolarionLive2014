@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ui-content div {
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+
+.sessionName {
+	font-size: large;
+	font-weight: bolder;
+}

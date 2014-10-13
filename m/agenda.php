@@ -20,6 +20,20 @@
 	<link href="../jquery.mobile-1.4.4/jquery.mobile-1.4.4.min.css" rel="stylesheet" type="text/css" />
 	<link href="../_css/adminStyles.css" rel="stylesheet" type="text/css" />
 	<link href="agenda.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+	a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+  </style>
 <script src="../jquery.mobile-1.4.4/jquery-1.4.4.min.js"></script>
 	<script src="../jquery.mobile-1.4.4/jquery.mobile-1.4.4.min.js"></script>
 </head>
@@ -83,6 +97,11 @@ function getIcon($iconType) {
 	return $iconStr;
 }
 
+function getSessionLink($object) {
+	$href = "<a href=\"agendaDetails.php?id=" . $object->getObjectId() . "\">" . $object->get('session') . "</a>";
+	return $href;
+}
+
 //	echo date('l jS \of F Y G:i A');
 	if (count($results) > 0) {
 	
@@ -93,10 +112,10 @@ function getIcon($iconType) {
 				echo getIcon($object->get('icon'));
 				echo "</div>\n";
 				echo "<div class=\"sessionTime\">" . getTime($object->get('start'),$object->get('end'));
-//				echo "<div class=\"sessionTime\">" . $object->get('start')->format("g:i");
 				echo "<span class=\"sessionLocation\">" . $object->get('location') . "</span>\n";
 				echo "</div>\n";
-				echo "<div class=\"sessionName\">"  . $object->get('session') . "</div>\n";
+//				echo "<div class=\"sessionName\">"  . $object->get('session') . "</div>\n";
+				echo "<div class=\"sessionName\">"  . getSessionLink($object) . "</div>\n";
 			echo "</div>\n";
 		}
 	}
