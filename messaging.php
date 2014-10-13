@@ -35,9 +35,59 @@
 <br />
 </strong>
 <p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;margin-left: 18pt;margin-right: -9pt;"><strong style="font-weight:normal;"><span style="font-family:Arial; font-size:11px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none; ">Solve specific challenges with one or a mix of Polarion&rsquo;s solutions, purpose-built ontop of one unified platform</span><span style="font-family:Arial; font-size:11px; color:#222222; font-style:normal; font-weight:normal; text-decoration:none; ">, with the option to seamlessly evolve in step with growing organizational demands.</span></strong></p>
-<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;margin-left: 18pt;margin-right: -9pt;">&nbsp;</p>
-<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;margin-left: 18pt;margin-right: -9pt;"><strong style="font-weight:normal;"><span style="font-family:Arial; font-size:11px; color:#222222; font-style:normal; font-weight:normal; text-decoration:none; ">Please send feedback to <a href="mailto:info@polarion.com">info@polarion.com</a></span><br />
-</strong></p>
+
+<p>
+  <!--<span style="font-family:Arial; font-size:11px; color:#222222; font-style:normal; font-weight:normal; text-decoration:none; ">Please send feedback to <a href="mailto:info@polarion.com">info@polarion.com</a></span>--></p>
+<form id="form1" name="form1" method="post" action="m/submitSurvey.php">
+	<hr />
+  <h3>Choose Preferred Content Block:</h3>
+	<label>
+  <input type="radio" name="PreferredContent" value="block1" id="PreferredContent_0" />Block 1</label>
+  <br />
+  <label>
+    <input type="radio" name="PreferredContent" value="block2" id="PreferredContent_1" />Block 2</label>
+  <br />
+  Any Suggstions/Comments:
+  <label>
+    <textarea name="contentBlockSuggestion" id="contentBlockSuggestion" cols="45" rows="5"></textarea>
+  </label>
+  <br />
+  <hr />
+  <br />
+  <h3>
+  Choose Preferred Platform/Product Name:</h3>
+	<label>
+  <input type="radio" name="PreferredProduct" value="block1" id="PreferredProduct_0" />Polarion Software® Suite</label>
+  <br />
+  <label>
+    <input type="radio" name="PreferredProduct" value="block2" id="PreferredProduct_1" />Polarion Software® Platform</label>
+  <br />
+  <br />
+  Any Suggstions/Comments:
+  <label>
+    <textarea name="productSuggestion" id="productSuggestion" cols="45" rows="5"></textarea>
+  </label>
+  <br />
+  <hr />
+  <br />
+  <h3>
+  Choose Preferred Product Name Tag:</h3>
+	  <label>
+	    <input type="radio" name="PreferredProduct" value="block1" id="PreferredProduct_0" />Unlock Synergies for Compliant Innovation</label>
+	  <br />
+	  <label>
+	    <input type="radio" name="PreferredProduct" value="block2" id="PreferredProduct_1" />Unlock Synergies Across Lifecycles and Projects</label>
+	  <br />
+	  <br />
+	  Any Suggstions/Comments:
+	  <label>
+	    <textarea name="productSuggestion" id="productSuggestion" cols="45" rows="5"></textarea>
+    </label>
+	<p>
+	  <input class="centered" type="submit" name="button" id="button" value="Submit" />
+  </p>
+</form>
+
 
 </body>
 </html>
