@@ -15,7 +15,7 @@
 	
 ?>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Polarion Live 2014 Dashboard</title>
+<title>Polarion Live 2014 Agenda</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="../jquery.mobile-1.4.4/jquery.mobile-1.4.4.min.css" rel="stylesheet" type="text/css" />
 	<link href="../_css/adminStyles.css" rel="stylesheet" type="text/css" />
@@ -46,7 +46,7 @@ a:active {
 	$results = $query->find();
   ?> 
 	<div data-role="header">
-		<h2><img src="../_img/polarion_logo_240x264.gif" width="62" height="67" alt="Polarion" />Polarion Live 2014 Agenda</h2>
+		<h3><img class="polarion-logo" src="../_img/polarion_logo_240x264.gif" width="62" height="67" alt="Polarion" /><span class="heading">Polarion Live 2014 Agenda</span></h3>
 	</div><!-- /header -->
 	<div role="main" class="ui-content">
 	  <!--<div class="sessionRow">

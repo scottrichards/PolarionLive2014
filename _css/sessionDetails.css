@@ -13,3 +13,11 @@ body {
 	font-size: large;
 	font-weight: bolder;
 }
+
+.heading {
+	padding-left:10px;
+}
+
+.polarion-logo {
+	vertical-align:middle;
+}

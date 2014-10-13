@@ -36,3 +36,11 @@
 a:link {
 	color: #233c66;
 }
+
+.heading {
+	padding-left:10px;
+}
+
+.polarion-logo {
+	vertical-align:middle;
+}

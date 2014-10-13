@@ -28,7 +28,7 @@
 <div data-role="page">
 
 	<div data-role="header">
-		<h2><img src="../_img/polarion_logo_240x264.gif" width="62" height="67" alt="Polarion" />Session Details </h2>
+		<h2><img class="polarion-logo" src="../_img/polarion_logo_240x264.gif" width="62" height="67" alt="Polarion" /><span class="heading">Session Details</span> </h2>
 	</div><!-- /header -->
 	<div role="main" class="ui-content">
 	<?php 
