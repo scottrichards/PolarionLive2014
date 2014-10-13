@@ -1,6 +1,32 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<?php
+	ini_set('display_errors', 'On');
+	error_reporting(E_ALL);
+	
+	require '../vendor/autoload.php';
+ 
+	use Parse\ParseClient;
+    use Parse\ParseObject;
+	use Parse\ParseQuery;
+ 
+	ParseClient::initialize('eo7wLLlQekmYfJJ77gmXhQkTfFC3qK0OvKV8pFYK', 'ojNzbqHndG4S4cz9xDPkuwa6R3GNwzMiNwSh23TY', 'L1UcjLzDovHeWVpDzGj8ruUNrJXdTx43pzdushnO');
+	
+	
+	$user = new ParseUser();
+	$user->set("username", "polarionlive2014");
+	$user->set("password", "survey");
+ 
+try {
+  $user->signUp();
+  // Hooray! Let them use the app now.
+} catch (ParseException $ex) {
+  // Show the error message somewhere and let the user try again.
+  echo "Error: " . $ex->getCode() . " " . $ex->getMessage();
+}
+	
+?>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Message Testing</title>
