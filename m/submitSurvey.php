@@ -15,7 +15,15 @@
 //	$survey->set("contentBlockSuggestion",$_POST['contentBlockSuggestion']);
 	
 ?>
-
-Content Block Suggestion: <?php echo $_POST['contentBlockSuggestion']; ?>
-<br />
 Content Block Favorite: <?php echo $_POST['PreferredContent']; ?>
+<br />
+Content Block Suggestion: <?php echo $_POST['contentBlockSuggestion']; ?>
+<hr />
+Platform Favorite: <?php echo $_POST['PreferredPlatform']; ?>
+<br />
+Platform Suggestion: <?php echo $_POST['platformSuggestion']; ?>
+<hr />
+Product Favorite: <?php echo $_POST['PreferredProduct']; ?>
+<br />
+Product Suggestion: <?php echo $_POST['productSuggestion']; ?>
+<hr />
