@@ -12,4 +12,4 @@
 	
 ?>
 
-Content Block Suggestion: <?php echo (int)$_POST['contentBlockSuggestion']; ?>
+Content Block Suggestion: <?php echo $_POST['contentBlockSuggestion']; ?>
