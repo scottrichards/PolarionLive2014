@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.hidden {
+	display:none;
+}
+
+div {
+	margin-top:10px;
+}
+
+.topicDescription {
+	font-size: larger;
+}
+
+.topicInfo {
+	font-size: medium;
+	margin-left: 20px;
+	margin-top:20px;
+	margin-bottom:20px;
+}

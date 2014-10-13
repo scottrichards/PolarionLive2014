@@ -34,8 +34,6 @@ a:active {
 	text-decoration: none;
 }
   </style>
-<script src="../jquery.mobile-1.4.4/jquery-1.4.4.min.js"></script>
-	<script src="../jquery.mobile-1.4.4/jquery.mobile-1.4.4.min.js"></script>
 </head>
 
 <body>
