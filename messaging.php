@@ -106,8 +106,8 @@ try {
 	  <label>
 	    <textarea name="productSuggestion" id="productSuggestion" cols="45" rows="5"></textarea>
     </label>
-	<p>
-	  <input class="centered" type="submit" name="button" id="button" value="Submit" />
+	<p class="centered">
+	  <input  type="submit" name="button" id="button" value="Submit" />
   </p>
 </form>
 
