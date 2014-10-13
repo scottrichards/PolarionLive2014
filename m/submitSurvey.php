@@ -19,6 +19,14 @@
 	$survey->set("platformSuggestion",$_POST['platformSuggestion']);
 	$survey->set("PreferredProduct",$_POST['PreferredProduct']);
 	$survey->set("productSuggestion",$_POST['productSuggestion']);
+	try {
+		$survey->save();
+		echo 'New object created with objectId: ' . $survey->getObjectId();
+	} catch (ParseException $ex) {  
+		// Execute any logic that should take place if the save fails.
+		// error is a ParseException object with an error code and message.
+		echo 'Failed to create new object, with error message: ' + $ex->getMessage();
+	}
 	
 ?>
 <!--Content Block Favorite: <?php echo $_POST['PreferredContent']; ?>
