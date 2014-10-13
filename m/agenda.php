@@ -46,7 +46,7 @@ a:active {
 	$results = $query->find();
   ?> 
 	<div data-role="header">
-		<h2><img class="polarion-logo" src="../_img/polarion_logo_240x264.gif" width="62" height="67" alt="Polarion" /><span class="heading">Agenda</span></h2>
+		<h2><a href="../index.html"><img class="polarion-logo" src="../_img/polarion_logo_240x264.gif" width="62" height="67" alt="Polarion" /></a><span class="heading">Agenda</span></h2>
 	</div><!-- /header -->
 	<div role="main" class="ui-content">
 	  <!--<div class="sessionRow">
