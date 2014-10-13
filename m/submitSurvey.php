@@ -11,11 +11,16 @@
 	ParseClient::initialize('eo7wLLlQekmYfJJ77gmXhQkTfFC3qK0OvKV8pFYK', 'ojNzbqHndG4S4cz9xDPkuwa6R3GNwzMiNwSh23TY', 'L1UcjLzDovHeWVpDzGj8ruUNrJXdTx43pzdushnO');
 	
 	
-//	$survey= new ParseObject("Survey");
-//	$survey->set("contentBlockSuggestion",$_POST['contentBlockSuggestion']);
+	$survey= new ParseObject("Survey");
+	$survey->set("PreferredContent",$_POST['PreferredContent']);
+	$survey->set("contentBlockSuggestion",$_POST['contentBlockSuggestion']);
+	$survey->set("PreferredPlatform",$_POST['PreferredPlatform']);
+	$survey->set("platformSuggestion",$_POST['platformSuggestion']);
+	$survey->set("PreferredProduct",$_POST['PreferredProduct']);
+	$survey->set("productSuggestion",$_POST['productSuggestion']);
 	
 ?>
-Content Block Favorite: <?php echo $_POST['PreferredContent']; ?>
+<!--Content Block Favorite: <?php echo $_POST['PreferredContent']; ?>
 <br />
 Content Block Suggestion: <?php echo $_POST['contentBlockSuggestion']; ?>
 <hr />
@@ -26,4 +31,4 @@ Platform Suggestion: <?php echo $_POST['platformSuggestion']; ?>
 Product Favorite: <?php echo $_POST['PreferredProduct']; ?>
 <br />
 Product Suggestion: <?php echo $_POST['productSuggestion']; ?>
-<hr />
+<hr />-->
