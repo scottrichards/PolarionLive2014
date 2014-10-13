@@ -48,11 +48,11 @@ function getTime($start,$end) {
 //	echo "ObjectId = " . $_GET["id"];
 	if (!is_null($objectId)) {
 		$sessionObject = $query->get($objectId);
+		echo "<div class=\"sessionName\">" . $sessionObject->get("session") . "</div>\n";
 		echo "<div class=\"sessionTime\">Time: " . getTime($sessionObject->get("start"),$sessionObject->get("end")) . "</div>\n";
 		if (!is_null($sessionObject->get("location"))) {
 			echo "<div class=\"sessionLocation\">Location: " . $sessionObject->get("location") . "</div>\n";
 		}
-		echo "<div class=\"sessionName\">Session: " . $sessionObject->get("session") . "</div>\n";
 		echo "<div class=\"sessionDescription\">Description: " . $sessionObject->get("description") . "</div>\n";
 		echo "<div class=\"sessionSpeakers\">Presenter(s): " . $sessionObject->get("presenter") . "</div>\n";
 	} 
