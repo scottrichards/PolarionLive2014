@@ -57,15 +57,15 @@
   <h3>
   Choose Preferred Platform/Product Name:</h3>
 	<label>
-  <input type="radio" name="PreferredProduct" value="block1" id="PreferredProduct_0" />Polarion Software® Suite</label>
+  <input type="radio" name="PreferredPlatform" value="platform1" id="PreferredPlatform_0" />Polarion Software® Suite</label>
   <br />
   <label>
-    <input type="radio" name="PreferredProduct" value="block2" id="PreferredProduct_1" />Polarion Software® Platform</label>
+    <input type="radio" name="PreferredPlatform" value="platform2" id="PreferredPlatform_1" />Polarion Software® Platform</label>
   <br />
   <br />
   Any Suggstions/Comments:
   <label>
-    <textarea name="productSuggestion" id="productSuggestion" cols="45" rows="5"></textarea>
+    <textarea name="platformSuggestion" id="platformSuggestion" cols="45" rows="5"></textarea>
   </label>
   <br />
   <hr />
@@ -73,10 +73,10 @@
   <h3>
   Choose Preferred Product Name Tag:</h3>
 	  <label>
-	    <input type="radio" name="PreferredProduct" value="block1" id="PreferredProduct_0" />Unlock Synergies for Compliant Innovation</label>
+	    <input type="radio" name="PreferredProduct" value="product1" id="PreferredProduct_0" />Unlock Synergies for Compliant Innovation</label>
 	  <br />
 	  <label>
-	    <input type="radio" name="PreferredProduct" value="block2" id="PreferredProduct_1" />Unlock Synergies Across Lifecycles and Projects</label>
+	    <input type="radio" name="PreferredProduct" value="product2" id="PreferredProduct_1" />Unlock Synergies Across Lifecycles and Projects</label>
 	  <br />
 	  <br />
 	  Any Suggstions/Comments:
