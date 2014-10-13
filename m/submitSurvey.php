@@ -11,8 +11,8 @@
 	ParseClient::initialize('eo7wLLlQekmYfJJ77gmXhQkTfFC3qK0OvKV8pFYK', 'ojNzbqHndG4S4cz9xDPkuwa6R3GNwzMiNwSh23TY', 'L1UcjLzDovHeWVpDzGj8ruUNrJXdTx43pzdushnO');
 	
 	
-	$survey= new ParseObject("Survey");
-	$survey.set("contentBlockSuggestion",$_POST['contentBlockSuggestion']);
+//	$survey= new ParseObject("Survey");
+//	$survey->set("contentBlockSuggestion",$_POST['contentBlockSuggestion']);
 	
 ?>
 
