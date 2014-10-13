@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.ui-content table tr td {
+	padding: 3px;
+}
+
+.ui-content table tr th {
+	padding: 5px;
+}
+
+.testimonial-row {
+	color:#FFFFFF;
+}

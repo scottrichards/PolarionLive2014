@@ -21,7 +21,7 @@
 	$survey->set("productSuggestion",$_POST['productSuggestion']);
 	try {
 		$survey->save();
-		echo 'New object created with objectId: ' . $survey->getObjectId();
+		echo '<br />Survey was submitted...<br />';
 	} catch (ParseException $ex) {  
 		// Execute any logic that should take place if the save fails.
 		// error is a ParseException object with an error code and message.

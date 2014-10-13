@@ -19,6 +19,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="../jquery.mobile-1.4.4/jquery.mobile-1.4.4.min.css" rel="stylesheet" type="text/css" />
 	<link href="../_css/adminStyles.css" rel="stylesheet" type="text/css" />
+	<link href="agenda.css" rel="stylesheet" type="text/css" />
 <script src="../jquery.mobile-1.4.4/jquery-1.4.4.min.js"></script>
 	<script src="../jquery.mobile-1.4.4/jquery.mobile-1.4.4.min.js"></script>
 </head>
@@ -31,39 +32,77 @@
 	$results = $query->find();
   ?> 
 	<div data-role="header">
-		<h1><img src="../_img/polarion_logo_240x264.gif" width="62" height="67" alt="Polarion" />Polarion Live 2014 </h1>
+		<h1><img src="../_img/polarion_logo_240x264.gif" width="62" height="67" alt="Polarion" />Polarion Live 2014 Agenda</h1>
 	</div><!-- /header -->
-	<h2>Agenda</h2>
 	<div role="main" class="ui-content">
-
-		<table width="90%" border="1" cellspacing="0" cellpadding="0">
-		  <tr>
-		    <th>Session</th>
-		    <th>Time</th>
-		    <th>Location</th>
-	    </tr>
+	  <!--<div class="sessionRow">
+    	<div class="sessionIcon"><img src="../_img/beer_50.png" width="50" height="50" />
+      </div>
+      <div class="sessionInfo">
+        <div class="sessionTime">8:30-9:30<span class="sessionLocation">Foyer</span></div>
+        <div class="sessionName"><a href="#">Polarion 2015 Preview</a></div>
+       </div>
+    </div>-->
 		<?php 
+ date_default_timezone_set('UTC');
  
-	
+function getTime($start,$end) {
+	$timeStr = "";
+	if (!is_null($start)) {
+		$timeStr = $start->format("g:i");
+	}
+	if (!is_null($end)) {
+		$timeStr .=  " - " .  $end->format("g:i");
+	}
+  return $timeStr;
+}
+
+function getIcon($iconType) {
+	$iconStr = "<img src=\"../_img/";
+	if (!is_null($iconType)) {	
+		switch ($iconType) {
+			case "cocktail" : $iconStr .= "beer_50.png";
+					break;
+			case "food" : $iconStr .= "fork_75.png";
+				break;
+			case "key" : $iconStr .= "key_filled_75.png";
+				break;
+			case "coffee" : $iconStr .= "coffee_75.png";
+				break;
+			case "expert" : $iconStr .= "collaboration_50.png";
+				break;
+			case "trophy" : $iconStr .= "trophy_50.png";
+				break;
+			default : $iconStr .= "1x1.png";
+				break;
+		}
+	} else {
+		$iconStr .= "1x1.png";
+	}
+	$iconStr .= "\" width=\"50\" height=\"50\" />";
+	return $iconStr;
+}
+
+//	echo date('l jS \of F Y G:i A');
 	if (count($results) > 0) {
 	
 		for ($i = 0; $i < count($results); $i++) { 
-			echo "<tr>";
+			echo "\n<div class=\"sessionRow\">\n";
 		  	$object = $results[$i];
-		  	echo "<td>" . $object->get('session') . "</td>";
-				echo "<td>"  . "</td>";
-				echo "<td>" . $object->get('location') . "</td>";
-			echo "</tr>";
+				echo "<div class=\"sessionIcon\">";
+				echo getIcon($object->get('icon'));
+				echo "</div>\n";
+				echo "<div class=\"sessionTime\">" . getTime($object->get('start'),$object->get('end'));
+//				echo "<div class=\"sessionTime\">" . $object->get('start')->format("g:i");
+				echo "<span class=\"sessionLocation\">" . $object->get('location') . "</span>\n";
+				echo "</div>\n";
+				echo "<div class=\"sessionName\">"  . $object->get('session') . "</div>\n";
+			echo "</div>\n";
 		}
 	}
   ?> 
-	  </table>
-  <p>&nbsp;</p>
-	</div><!-- /content -->
+ 	</div><!-- /content -->
 
-	<div data-role="footer">
-		<h4><a href="http://www.polarion.com/company/copyright.php">Copyright</a> © 2014 Polarion Software</h4>
-	</div><!-- /footer -->
 </div><!-- /page -->
 
 </body>

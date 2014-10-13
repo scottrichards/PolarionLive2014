@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.sessionRow {
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	min-height: 52px;
+	border-bottom-width: 1px;
+}
+.ui-content .sessionRow .sessionInfo .sessionName a {
+	text-decoration: none;
+	color: #233c66;
+}
+
+.sessionIcon {
+	float:left;
+	margin-right:10px;
+}
+
+.sessionTime {
+	margin-top:5px;
+	/*background-color:lightyellow;*/
+}
+
+.sessionName {
+	margin-top: 5px;
+	color: #233c66;/*	background-color:lightblue;*/
+}
+
+.sessionLocation {
+	padding-left:160px;
+}
+
+.location{
+	float:right;
+}
