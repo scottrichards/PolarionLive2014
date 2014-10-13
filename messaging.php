@@ -15,12 +15,8 @@
 	ParseClient::initialize('eo7wLLlQekmYfJJ77gmXhQkTfFC3qK0OvKV8pFYK', 'ojNzbqHndG4S4cz9xDPkuwa6R3GNwzMiNwSh23TY', 'L1UcjLzDovHeWVpDzGj8ruUNrJXdTx43pzdushnO');
 	
 	
-	$user = new ParseUser();
-	$user->set("username", "polarionlive2014");
-	$user->set("password", "survey");
- 
 try {
-  $user->signUp();
+  $user = ParseUser::logIn("polarionlive2014", "survey");
   // Hooray! Let them use the app now.
 } catch (ParseException $ex) {
   // Show the error message somewhere and let the user try again.
