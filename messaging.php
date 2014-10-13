@@ -10,6 +10,7 @@
 	use Parse\ParseClient;
     use Parse\ParseObject;
 	use Parse\ParseQuery;
+	use Parse\ParseUser;
  
 	ParseClient::initialize('eo7wLLlQekmYfJJ77gmXhQkTfFC3qK0OvKV8pFYK', 'ojNzbqHndG4S4cz9xDPkuwa6R3GNwzMiNwSh23TY', 'L1UcjLzDovHeWVpDzGj8ruUNrJXdTx43pzdushnO');
 	
