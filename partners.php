@@ -6,9 +6,7 @@
 		<title>Speakers &amp; Partners</title>
     <link href="_css/live2014.css" rel="stylesheet" type="text/css">
     <style type="text/css">
-    p {
-	font-size: small;
-}
+   
     </style>
 </head>
 <body>
