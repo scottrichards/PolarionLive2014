@@ -20,6 +20,8 @@
 	<link href="../jquery.mobile-1.4.4/jquery.mobile-1.4.4.min.css" rel="stylesheet" type="text/css" />
 	<link href="../_css/adminStyles.css" rel="stylesheet" type="text/css" />
 	<link href="../_css/sessionDetails.css" rel="stylesheet" type="text/css" />
+  <script src="../jquery.mobile-1.4.4/jquery.min.js"></script>
+	<script src="../jquery.mobile-1.4.4/jquery.mobile-1.4.4.min.js"></script>
 </head>
 
 <body>
@@ -60,7 +62,20 @@ function getTime($start,$end) {
 	} 
   ?> 
 		
-  	<div></div>
+  <div>
+<form action="sessionRating.php" <?php if ($sessionObject->get("icon") == "trophy" || $sessionObject->get("icon") == "coffee" || $sessionObject->get("icon") == "food") echo " class=\"hidden\"" ?> method="post">
+		<p>
+		  <label for="speaker">Speaker:</label>
+      <input name="presenterRating" type="text" id="presenterRating" max="5" min="0" value="0" size="5">(1=Not Good, 5 = Excellent)<br />
+		  <label for="content">Content:</label>
+		  <input name="contentRating" type="text" id="contentRating" max="5" min="0" value="0" size="5"> (1=Not Good, 5 = Excellent)
+		</p>
+		<p class="centered">
+		  <input type="submit" name="button" id="button" value="Rate" />
+  </p>
+  <input name="session" type="hidden" value="<?php echo $objectId; ?>" />
+</form>
+  </div>
 	</div><!-- /content -->
 
 </div><!-- /page -->
