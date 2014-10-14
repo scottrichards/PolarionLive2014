@@ -96,7 +96,11 @@ function getIcon($iconType) {
 }
 
 function getSessionLink($object) {
-	$href = "<a href=\"agendaDetails.php?id=" . $object->getObjectId() . "\">" . $object->get('session') . "</a>";
+	if ($object->getObjectId() == "bDrdterv72") {
+		$href = "<a href=\"experts.php\">" . $object->get('session') . "</a>";
+	} else {
+		$href = "<a href=\"agendaDetails.php?id=" . $object->getObjectId() . "\">" . $object->get('session') . "</a>";
+	}
 	return $href;
 }
 
