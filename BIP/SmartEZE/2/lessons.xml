@@ -1,0 +1,3068 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <lesson>Lesson #
+    <lessonName>1</lessonName>
+      
+    <pageName>2</pageName>
+    <questions>Lesson #
+      <lessonName>1</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>456 + 213 =  </content>
+        Question Type:
+        <type>numeric</type>
+         Answer:
+        <answer>669</answer>
+         </question>
+      <question>
+        <number>2</number>
+        <content>What time is it? </content>
+        Question Type:
+        <type>time</type>
+         Answer:
+        <answer>2:20</answer>
+         
+        <image>Image Path:
+          <imagePath>images/Clock 220.ai.png</imagePath>
+           Image Type:
+          <imageType>question</imageType>
+           </image>
+      </question>
+      <question>
+        <number>3</number>
+        <content>548 − 235 =   </content>
+        Question Type:
+        <type>numeric</type>
+         Answer:
+        <answer>313</answer>
+         </question>
+      <question>
+        <number>4</number>
+        <content>Select the shape with 5 sides and 5 angles.  </content>
+        Question Type:
+        <type>shapeNames</type>
+         Answer:
+        <answer>Pentagon</answer>
+         </question>
+      <question>
+        <number>5</number>
+        <content>Write the symbol that tells you to add. </content>
+        Question Type:
+        <type>symbolOperators</type>
+         Answer:
+        <answer>+</answer>
+         </question>
+      <question>
+        <number>6</number>
+        <content>Count the objects in the array.  Write an  addition sentence to show the sum. 
+          <answer>4</answer>
+          +
+          <answer>4</answer>
+          +
+          <answer>4</answer>
+          =
+          <answer>12</answer>
+           </content>
+        Question Type:
+        <type>equation</type>
+         
+        <image>Image Path:
+          <imagePath>images/3 x 4 ARRAY.ai.png</imagePath>
+           Image Type:
+          <imageType>question</imageType>
+           </image>
+      </question>
+      <question>
+        <number>7</number>
+        <content>434
+          <answer>&lt;</answer>
+          443 </content>
+        Question Type:
+        <type>equality</type>
+         </question>
+      <question>
+        <number>8</number>
+        <content>14 + 12 + 15 =  </content>
+        Question Type:
+        <type>numeric</type>
+         Answer:
+        <answer>41</answer>
+         </question>
+      <question>
+        <number>9</number>
+        <content>Count by tens.  50, 60,
+          <answer>70</answer>
+          ,
+          <answer>80</answer>
+          ,
+          <answer>90</answer>
+          , 100 </content>
+        Question Type:
+        <type>equation</type>
+         </question>
+      <question>
+        <number>10</number>
+        <content>Circle the rectangle that has 10 square units. </content>
+        Question Type:
+        <type>multipleChoiceImage</type>
+         
+        <choices>Choice: A)
+          <choice letter="A">images/2 x 5.ai.png</choice>
+           Choice: B)
+          <choice letter="B">images/2 x 4.ai.png</choice>
+           </choices>
+        Answer:
+        <answer>A</answer>
+         
+        
+      </question>
+      <question>
+        <number>11</number>
+        <content>Would Sari’s foot print be 18 meters long or 18 centimeters? </content>
+        Question Type:
+        <type>multipleChoice</type>
+         
+        <choices>Choice: A)
+          <choice letter="A">18 meters</choice>
+           Choice: B)
+          <choice letter="B">18 centimeters</choice>
+           </choices>
+        Answer:
+        <answer>B</answer>
+         </question>
+      <question>
+        <number>12</number>
+        <content>If you have two dollar bills, one quarter, and ten pennies, how much money do you have?</content>
+        <choices>A)
+          <choice letter="A">$2 and 42¢</choice>
+          C)
+          <choice letter="C">$2 and 60¢</choice>
+          B)
+          <choice letter="B">$2 and 52¢</choice>
+          D)
+          <choice letter="D">$2 and 35¢</choice>
+           </choices>
+        Question Type:
+        <type>multipleChoice</type>
+         Answer:
+        <answer>D</answer>
+         </question>
+      <question>
+        <number>13</number>
+        <content>Write the number using base-ten numerals.      15 tens </content>
+        Question Type:
+        <type>numeric</type>
+         Answer:
+        <answer>150</answer>
+         </question>
+      <question>
+        <number>14</number>
+        <content>Ellen bought a pen for $1.50 and a tablet for $1.35.  How much money did Ellen spend on these supplies? </content>
+        Question Type:
+        <type>currency</type>
+         Answer:
+        <answer>2.85</answer>
+         </question>
+      <question>
+        <number>15</number>
+        <content>How long is the pencil?</content>
+        Question Type:
+        <type>measurementImperial</type>
+         
+        <image>Image Path:
+          <imagePath>images/102 Pencil.eps.png</imagePath>
+           Image Type:
+          <imageType>question</imageType>
+           </image>
+        <image>Image Path:
+          <imagePath>images/ruler.ai.png</imagePath>
+           Image Type:
+          <imageType>question</imageType>
+           </image>
+        Answer:
+        <answer>5"</answer>
+         </question>
+      <imageBorder href="file:///Users/scottrichards/Documents/BIP/2%20Lessons%20Sum%20CCMath%202/images/ruler.ai.png"></imageBorder>
+      <imageBorder href="file:///Users/scottrichards/Documents/BIP/2%20Lessons%20Sum%20CCMath%202/images/102%20Pencil.eps.png"></imageBorder>
+      <imageBorder href="file:///Users/scottrichards/Documents/BIP/2%20Lessons%20Sum%20CCMath%202/images/Clock%20220.ai.png"></imageBorder>
+      <imageBorder href="file:///Users/scottrichards/Documents/BIP/2%20Lessons%20Sum%20CCMath%202/images/3%20x%204%20ARRAY.ai.png"></imageBorder>
+      <imageBorder href="file:///Users/scottrichards/Documents/BIP/2%20Lessons%20Sum%20CCMath%202/images/2%20x%205.ai.png"></imageBorder>
+      <imageBorder href="file:///Users/scottrichards/Documents/BIP/2%20Lessons%20Sum%20CCMath%202/images/2%20x%204.ai.png"></imageBorder>
+    </questions>
+    <graphic>
+      <graphicName>ruler.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:ruler.ai</graphicLink>
+      <imageLink>images/ruler.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>102 Pencil.eps</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:102 Pencil.eps</graphicLink>
+      <imageLink>images/102 Pencil.eps.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 220.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 220.ai</graphicLink>
+      <imageLink>images/Clock 220.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>3 x 4 ARRAY.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:3 x 4 ARRAY.ai</graphicLink>
+      <imageLink>images/3 x 4 ARRAY.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>2 x 5.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:2 x 5.ai</graphicLink>
+      <imageLink>images/2 x 5.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>2 x 4.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:2 x 4.ai</graphicLink>
+      <imageLink>images/2 x 4.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>2</lessonName>
+      
+    <pageName>4</pageName>
+    <questions>Lesson #
+      <lessonName>2</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>What time is shown on the clock? </content>
+        Question Type:
+        <type>time</type>
+         Answer:
+        <answer>9:35</answer>
+         
+        <image>Image Path:
+          <imagePath>images/Clock 935.ai.png</imagePath>
+           Image Type:
+          <imageType>question</imageType>
+           </image>
+      </question>
+      <question>
+        <number>2</number>
+        <content>77 + 35 =  </content>
+        Question Type:
+        <type>numeric</type>
+         Answer:
+        <answer>112</answer>
+         </question>
+      <question>
+        <number>3</number>
+        <content>Of the 59 students in the second grade, 26 are in Room 2A.   How many students are in Room 2B? </content>
+        Question Type:
+        <type>numeric</type>
+         Answer:
+        <answer>33</answer>
+         </question>
+      <question>
+        <number>4</number>
+        <content>Count by fives.  70, 75,
+          <answer>80</answer>
+          ,
+          <answer>85</answer>
+          ,
+          <answer>90</answer>
+          , 95 </content>
+        Question Type:
+        <type>equation</type>
+         </question>
+      <question>
+        <number>5</number>
+        <content>What number is 100 more than 629? </content>
+        Question Type:
+        <type>numeric</type>
+         Answer:
+        <answer>729</answer>
+         </question>
+      <question>
+        <number>6</number>
+        <content>What is the name of the shape? </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>Write 341 using words. </content>
+        Question Type:
+        <type>dragDrop</type>
+         Answer:
+        <answer>three hundred forty - one</answer>
+         
+        <choices>Choice: A)
+          <choice letter="A">one</choice>
+           Choice: B)
+          <choice letter="B">forty</choice>
+           Choice: C)
+          <choice letter="C">hundred</choice>
+           Choice: D)
+          <choice letter="D">-</choice>
+           Choice: E)
+          <choice letter="E">three</choice>
+           </choices>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Would the length of a small dog’s tail be 10 centimeters or 10 meters? </content>
+        Question Type:
+        <type>multipleChoice</type>
+         
+        <choices>Choice: A)
+          <choice letter="A">10 centimeters</choice>
+           Choice: B)
+          <choice letter="B">10 meters</choice>
+           </choices>
+        Answer:
+        <answer>A</answer>
+         </question>
+      <question>
+        <number>9</number>
+        <content>The difference is the answer to a(n) <answer>subtraction</answer> problem.</content>
+        Question Type:
+        <type>mathWordsAddSub</type>
+         </question>
+      <question>
+        <number>10</number>
+        <content>How many cents do you have if you have two quarters, three dimes, and three pennies? </content>
+        Question Type:
+        <type>numeric</type>
+		<answer>83</answer>
+         </question>
+      <question>
+        <number>11</number>
+        <content>42 +
+          <answer>44</answer>
+          = 86 </content>
+        Question Type:
+        <type>equation</type>
+         </question>
+      <question>
+        <number>12</number>
+        <content>964 − 533 =  </content>
+        Question Type:
+        <type>numeric</type>
+         Answer:
+        <answer>431</answer>
+         </question>
+      <question>
+        <number>13</number>
+        <content>Count the objects in the array.  Write an addition statement to show the sum.
+          <answer>3</answer>
+          +
+          <answer>3</answer>
+          =
+          <answer>6</answer>
+           </content>
+        <image>Image Path:
+          <imagePath>images/3 x 2.ai.png</imagePath>
+           Image Type:
+          <imageType>question</imageType>
+           </image>
+        Question Type:
+        <type>equation</type>
+         </question>
+      <question>
+        <number>14</number>
+        <content>Write this as a base-ten numeral.  2 tens, 1 one, and 6 hundreds </content>
+        Question Type:
+        <type>numeric</type>
+         Answer:
+        <answer>621</answer>
+         </question>
+      <question>
+        <number>15</number>
+        <content>Write your answers in inches. How much longer is  Y than Z?  </content>
+        Question Type:
+        <type>measurementImperial</type>
+        <answer>2"</answer> 
+        <image>Image Path:
+          <imagePath>images/L24 Ruler.ai.png</imagePath>
+           Image Type:
+          <imageType>question</imageType>
+           </image>
+      </question>
+      <imageBorder href="file:///Users/scottrichards/Documents/BIP/2%20Lessons%20Sum%20CCMath%202/images/L24%20Ruler.ai.png"></imageBorder>
+      <imageBorder href="file:///Users/scottrichards/Documents/BIP/2%20Lessons%20Sum%20CCMath%202/images/3%20x%202.ai.png"></imageBorder>
+      <imageBorder href="file:///Users/scottrichards/Documents/BIP/2%20Lessons%20Sum%20CCMath%202/images/Clock%20935.ai.png"></imageBorder>
+    </questions>
+    <graphic>
+      <graphicName>L24 Ruler.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L24 Ruler.ai</graphicLink>
+      <imageLink>images/L24 Ruler.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>3 x 2.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:3 x 2.ai</graphicLink>
+      <imageLink>images/3 x 2.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName></graphicName>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 935.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 935.ai</graphicLink>
+      <imageLink>images/Clock 935.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>3</lessonName>
+      
+    <pageName>6</pageName>
+    <questions>Lesson #
+      <lessonName>3</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>15 + 23 + 12 + 10 = ? </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>Look at the picture.  Is the number of  trees even or odd ?  </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>554 + 223 = ? </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>Write the symbol that tells you to subtract. </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>Paul baked 24 cupcakes for the class bake sale.  Maura baked 12 cupcakes.  How many more cupcakes did Paul bake? 24 − 12 =  </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>Count by tens.   50, 60,           ,           , 90,           , 110,            </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>Draw 2 quadrilaterals. </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Is 41 closer to 40 or 50?  </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>Write the name of each shape. 				A)            B)            C)   </content>
+        <choices>A)
+          <choice letter="A"></choice>
+          B)
+          <choice letter="B"></choice>
+          C)
+          <choice letter="C"></choice>
+           </choices>
+        Question Type:
+        <type>multipleChoice</type>
+         </question>
+      <question>
+        <number>10</number>
+        <content>If you have three quarters and two dimes, do you have more or less than one dollar? </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>How much time has passed from  one clock to the next? </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>15 +            = 40 </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>94 − 29 = ? </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>Jeff ate lunch at 12:00 a.m. or 12:00 p.m? </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>How long, in inches, is the pen?</content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>ruler.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:ruler.ai</graphicLink>
+      <imageLink>images/ruler.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>tree.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:tree.ai</graphicLink>
+      <imageLink>images/tree.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 400.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 400.ai</graphicLink>
+      <imageLink>images/Clock 400.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 200.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 200.ai</graphicLink>
+      <imageLink>images/Clock 200.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>SL3.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:SL3.ai</graphicLink>
+      <imageLink>images/SL3.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>75 Pen.eps</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:75 Pen.eps</graphicLink>
+      <imageLink>images/75 Pen.eps.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>cube (solid).ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:cube (solid).ai</graphicLink>
+      <imageLink>images/cube (solid).ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>4</lessonName>
+      
+    <pageName>8</pageName>
+    <questions>Lesson #
+      <lessonName>4</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Which is greater, 5 nickels or 3 dimes? </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>Fill in the sign to make this sentence true.      316  163 </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>Put these numbers in order from greatest to least.  534   216   152   333 </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>716 + 253 = ? </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>How much money do you have if you have 8 nickels? </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>The answer to an addition problem is  called the                . </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>What base-ten number is this?   700 + 90 + 8 </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Is Michael’s favorite bat  36 inches or 48 feet long? </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>I have 6 thousands, 4 hundreds, 2 tens, and 8 ones.   What number am I?  </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Write the time shown on the clock. </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>What number is 100 less than 378? </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>Draw a shape that has 6 sides and 6 angles. </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>Choose the number that comes between 135 and 230. A)  415        B)  121      C)  205 </content>
+        <choices>A)
+          <choice letter="A">415</choice>
+          B)
+          <choice letter="B">121</choice>
+          C)
+          <choice letter="C">205</choice>
+           </choices>
+        Question Type:
+        <type>multipleChoice</type>
+         </question>
+      <question>
+        <number>14</number>
+        <content>659 − 114 = ? </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>How many fish are in the lake?  		How many more catfish than  bass are in the lake? </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>L4 baseball.eps</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L4 baseball.eps</graphicLink>
+      <imageLink>images/L4 baseball.eps.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 855.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 855.ai</graphicLink>
+      <imageLink>images/Clock 855.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L4Chart (edit).ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L4Chart (edit).ai</graphicLink>
+      <imageLink>images/L4Chart (edit).ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>5</lessonName>
+      
+    <pageName>10</pageName>
+    <questions>Lesson #
+      <lessonName>5</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Draw a rectangle that has three equal columns and two equal rows. </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>34 + 12 + 25 = ?  </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>What is the name of the shape? 		A)  cone        B)  cube     C)  cylinder </content>
+        <choices>A)
+          <choice letter="A">cone</choice>
+          B)
+          <choice letter="B">cube</choice>
+          C)
+          <choice letter="C">cylinder</choice>
+           </choices>
+        Question Type:
+        <type>multipleChoice</type>
+         </question>
+      <question>
+        <number>4</number>
+        <content>Fill in the sign to make this sentence true.       356  735 </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>Count the objects in the array.  Write two  addition statements to show the sum. </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>Write your answers in centimeters.   How long is A?   How long is B?   How much shorter is  B than A? </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>Draw a circle in your answer box.  Divide the circle into halves.  Color half of the circle.	 </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Write the time shown on the clock. </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>755 − 431 = ? </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Write the number using base-ten numerals.  30 + 9 + 900 </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>How many thirds of the rectangle are shaded? </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>What number is 10 less than 35? </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>If you have ten nickels and ten dimes, do you have more or less than one dollar? </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>24 + ? = 46 </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Mrs. Cooper’s house has three floors.  There are 6 rooms on the first floor, 4 rooms on the second floor and 5 rooms on the third floor.   How many rooms are in Mrs. Cooper’s house?</content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>SL5 rectangle.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:SL5 rectangle.ai</graphicLink>
+      <imageLink>images/SL5 rectangle.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 620.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 620.ai</graphicLink>
+      <imageLink>images/Clock 620.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>ruler 35.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:ruler 35.ai</graphicLink>
+      <imageLink>images/ruler 35.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>2 x 5_1.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:2 x 5_1.ai</graphicLink>
+      <imageLink>images/2 x 5_1.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Cone (edit).ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Cone (edit).ai</graphicLink>
+      <imageLink>images/Cone (edit).ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>6</lessonName>
+      
+    <pageName>12</pageName>
+    <questions>Lesson #
+      <lessonName>6</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>89¢ – 57¢ = ? </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>Count by fives.  65,           , 75,           ,           , 90,            </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>Write a fact family for 4, 5, and 9. </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>Look at the picture.  Is the number of  clouds even or odd? </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>664 + 225 = ? </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>224 + 13 + 32 = ? </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>Draw the shape that is divided  into two equal parts. </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Write this as a base-ten numeral.  4 ones, 4 tens, and 2 hundreds </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>Fill in the sign to make this sentence true.     938  641 </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>What part of the rectangle is not shaded? </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Is a couch about 6 inches long or 6 feet long? </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>Fill in the missing numbers.   260, 270,           , 290,            </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>400 + 50 + 9 is what number? </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>What number is 10 less than 23? </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Use the graph for both questions. How many students in all voted  for a color? How many more students voted  for pink than purple?</content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>L23 chart.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L23 chart.ai</graphicLink>
+      <imageLink>images/L23 chart.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>clouds.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:clouds.ai</graphicLink>
+      <imageLink>images/clouds.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName></graphicName>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>7</lessonName>
+      
+    <pageName>14</pageName>
+    <questions>Lesson #
+      <lessonName>7</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Molly ate dinner at 6:00 a.m. or 6:00 p.m.? </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>Look at the picture.  Is the number  of bird heads even or odd? </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>Write 797 using words. </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>Tina wanted to ride her bike 50 miles by the end of the week.  She rode 20 miles on Sunday, 15 miles on Tuesday, and 10 miles on Thursday.  How many miles will she need to ride on Saturday to reach her goal of 50 miles? </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>656 − 334 = ? </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>Write the time shown on the clock. </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>53 + 98 = ? </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>What number is 100 more than 899? </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>A shape with 4 sides and 4 angles is called a                     . </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Count by tens.  40, 50,           ,           , 80,           ,            </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>The answer to a subtraction problem is the                        . </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>Fill in the sign to make this sentence true.  516  508 </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>Which number comes just before 1,000? </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>Drake has four quarters and ten dimes.  Lisa has a dollar bill and  three quarters.  Who has more money, Drake or Lisa? </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>There were 482 people at the water park  on Thursday.  On Friday, 875 people visited  the park.  How many more people were at  the water park on Friday than on Thursday? </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>Clock 1245.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 1245.ai</graphicLink>
+      <imageLink>images/Clock 1245.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>bird heads.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:bird heads.ai</graphicLink>
+      <imageLink>images/bird heads.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L7Waterpark.eps</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L7Waterpark.eps</graphicLink>
+      <imageLink>images/L7Waterpark.eps.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>8</lessonName>
+      
+    <pageName>16</pageName>
+    <questions>Lesson #
+      <lessonName>8</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>What part of the square is shaded?  </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>536 − 312 = ? </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>12 + 24 + 16 = ? </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>Write the name of the shape. </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>Chris had 24 pepper plants. He gave two plants to his neighbor.  Then he got five more.  How many pepper plants does Chris have now?  </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>What time is shown? </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>642 + 353 = ? </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Fill in the sign to make this sentence true.   488  502 </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>Look at the picture.  Is the number  of planets even or odd? </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Write the number using base-ten numerals.  57 tens  </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Which of these is the best tool for measuring lines on your art paper? A)  meter stick     B)  tape measure     C)  ruler      D)  air pump  </content>
+        <choices>A)
+          <choice letter="A">meter stick</choice>
+          B)
+          <choice letter="B">tape measure</choice>
+          C)
+          <choice letter="C">ruler</choice>
+          D)
+          <choice letter="D">air pump</choice>
+           </choices>
+        Question Type:
+        <type>multipleChoice</type>
+         </question>
+      <question>
+        <number>12</number>
+        <content>Count the objects in the array.  Write two  addition statements to show the sum.  </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>Write your answers in centimeters.   How long is A?   How long is B?   How much longer  is A than B? </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>How much money is 8 quarters? </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Which class is the longest?  How  long is it? 		What time does math class start? </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>2 x 3.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:2 x 3.ai</graphicLink>
+      <imageLink>images/2 x 3.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>cylinder.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:cylinder.ai</graphicLink>
+      <imageLink>images/cylinder.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>ruler 36.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:ruler 36.ai</graphicLink>
+      <imageLink>images/ruler 36.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>planets.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:planets.ai</graphicLink>
+      <imageLink>images/planets.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 540.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 540.ai</graphicLink>
+      <imageLink>images/Clock 540.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>SL8 square.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:SL8 square.ai</graphicLink>
+      <imageLink>images/SL8 square.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>9</lessonName>
+      
+    <pageName>18</pageName>
+    <questions>Lesson #
+      <lessonName>9</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>What number is 100 more than 342? </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>Write the time shown on the clock. </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>Circle the rectangle that has 15 square units. </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>Fill in the sign to make this sentence true.     988  1,000 </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>What number follows 476?  </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>Would Mandy’s shoes fit better in a  3 centimeters or 25 centimeters box? </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>What base-ten number is this?      400 + 40 + 8 </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Is 58 closer to 50 or 60?  </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>How much money is ten dimes? </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>16 +            = 48 </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Find the egg on page 76 of your Hands-On pages.  Measure its height to the nearest inch. </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>Is the number of hearts even or odd?   </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>A telephone is about 8 inches long or 8 feet long? </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>Draw a rectangle and shade  of it. </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Which shape is divided into  halves?  Draw it.  </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>C24.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:C24.ai</graphicLink>
+      <imageLink>images/C24.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>C20.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:C20.ai</graphicLink>
+      <imageLink>images/C20.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>C21.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:C21.ai</graphicLink>
+      <imageLink>images/C21.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>C4.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:C4.ai</graphicLink>
+      <imageLink>images/C4.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>hearts.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:hearts.ai</graphicLink>
+      <imageLink>images/hearts.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L39.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L39.ai</graphicLink>
+      <imageLink>images/L39.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 125.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 125.ai</graphicLink>
+      <imageLink>images/Clock 125.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Basketball Player (edit).ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Basketball Player (edit).ai</graphicLink>
+      <imageLink>images/Basketball Player (edit).ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Fraction - three fourths.wmf</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Fraction - three fourths.wmf</graphicLink>
+      <imageLink>images/Fraction - three fourths.wmf.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>3 x 4.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:3 x 4.ai</graphicLink>
+      <imageLink>images/3 x 4.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>3 x 5.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:3 x 5.ai</graphicLink>
+      <imageLink>images/3 x 5.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>10</lessonName>
+      
+    <pageName>20</pageName>
+    <questions>Lesson #
+      <lessonName>10</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Nora, Poly, and Lacey each have a sleeping bag that is 33 inches wide. If they put the sleeping bags side by side, will all three fit in a space that is 100 inches wide?  Write a number sentence and solve it. </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>Fill in the sign to make this sentence true.  324  254 </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>26 + 31 + 14 + 42 = ? </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>Is 98 closer to 90 or 100?   </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>Count by fives.  75, 80,           ,           ,            , 100 </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>Jen has a dollar and twenty-seven pennies.  Paul has six quarters.  Who has more money, Jen or Paul? </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>828 − 414 = ? </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>What time is it? </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>504 + 293 = ? </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Which shape is divided into  three equal thirds?  Draw it.  </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Write this as a base-ten numeral.   3 hundreds, 1 one, and 9 tens </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>Put the numbers in order from least to greatest.  465   254   787   325 </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>How many thirds are shaded? </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>341 + 428 = ? </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>How many children chose dogs? 		How many more children chose  hamsters than cats?</content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>triangle rectangle (edit).ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:triangle rectangle (edit).ai</graphicLink>
+      <imageLink>images/triangle rectangle (edit).ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L92 circle 1.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L92 circle 1.ai</graphicLink>
+      <imageLink>images/L92 circle 1.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 350.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 350.ai</graphicLink>
+      <imageLink>images/Clock 350.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>SL10_1.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:SL10_1.ai</graphicLink>
+      <imageLink>images/SL10_1.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>SL10.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:SL10.ai</graphicLink>
+      <imageLink>images/SL10.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>11</lessonName>
+      
+    <pageName>22</pageName>
+    <questions>Lesson #
+      <lessonName>11</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Draw a shape that has 6 sides and 6 angles. </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>643 + 125 = ? </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>Write the name of the shape.   </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>69¢ + 53¢ = ? </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>Write two equal addends.             +            = 10 </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>Mentally add 100.  520, 620,           ,           ,            </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>Fill in the sign to make this sentence true.    816  799 </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Draw a circle in your answer box.  Divide the circle into thirds.   Color a third of the circle. </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>959 – 239 = ? </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Write this as a base-ten numeral.  Seven hundred sixty-three </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Write your answers in centimeters.   How long is A?   How long is B?   How much shorter  is A than B? </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>Count by fives.   45,           , 55,           ,           , 70 </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>What is the time shown on the clock? </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>800 + 90 + 7 is what number? </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Leon ate 9 cookies on Monday.  He ate 11 cookies on Tuesday and 13 more cookies on Wednesday.  How many cookies did Leon eat during the three days? </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName></graphicName>
+    </graphic>
+    <graphic>
+      <graphicName>L11 bug.eps</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L11 bug.eps</graphicLink>
+      <imageLink>images/L11 bug.eps.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>ruler 37.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:ruler 37.ai</graphicLink>
+      <imageLink>images/ruler 37.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 750.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 750.ai</graphicLink>
+      <imageLink>images/Clock 750.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>12</lessonName>
+      
+    <pageName>24</pageName>
+    <questions>Lesson #
+      <lessonName>12</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Count the number of squares in the rows  and columns.  How many squares are there? </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>What number is 10 more than 25? </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>How much money is 6 quarters? </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>3 + 8 = ? </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>How much time has passed  from one clock to the other? </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>518 + 231 = ? </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>Mrs. Smith bought fifty erasers.  She has 33 students in her class.  If she gives an eraser to each student, how many will be left over? </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>The sum is the answer to a(n) 			 problem. </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>Fill in the sign to make this true.     899  946 </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>835 − 402 = ? </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Write the name of this shape. 	 </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>Draw a rectangle and divide it into 3 equal parts.  Shade two parts. </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>18 − ? = 12 </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>Bonnie has one dollar and 32¢.  Jimmy has three quarters and two dimes.  Who has more money, Bonnie or Jimmy? </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Write your answers in centimeters. How long is A?   How long is B?   How much longer  is B than A?  </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>Clock 600.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 600.ai</graphicLink>
+      <imageLink>images/Clock 600.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 800.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 800.ai</graphicLink>
+      <imageLink>images/Clock 800.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>ruler 38.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:ruler 38.ai</graphicLink>
+      <imageLink>images/ruler 38.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>2 x 4.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:2 x 4.ai</graphicLink>
+      <imageLink>images/2 x 4.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>13</lessonName>
+      
+    <pageName>26</pageName>
+    <questions>Lesson #
+      <lessonName>13</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Which shape shows two equal halves?  </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>518 + 361 = ? </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>Fill in the sign to make this sentence true.     943  699 </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>Count by tens.          70,   80,            ,           , 110,           ,            </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>What number is 10 less than 29? </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>Count the objects in the array.   Write an addition statement to  show the sum. </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>946 − 323 = ? </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Write this as a base-ten numeral.   72 tens and 2 ones </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>I have 4 hundreds, 7 tens, and 3 ones.  What number am I? </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Tina invited six friends to her birthday party.  Tina’s brother and  sister also came to the party.  How many children were at the party  altogether? </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Is your desk 3 inches tall  or 3 feet tall? </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>What time is it?  </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>Arrange these numbers from greatest to least.     917, 670, 232, 435 </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>Write the base-ten number for five hundred sixty-three. </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>If you have twenty-three nickels, do you have more or less than one dollar? </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>L13 Clock 524.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L13 Clock 524.ai</graphicLink>
+      <imageLink>images/L13 Clock 524.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>3 x 3.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:3 x 3.ai</graphicLink>
+      <imageLink>images/3 x 3.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L13 Shapes.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L13 Shapes.ai</graphicLink>
+      <imageLink>images/L13 Shapes.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>14</lessonName>
+      
+    <pageName>28</pageName>
+    <questions>Lesson #
+      <lessonName>14</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Mom had breakfast ready at 7:30 a.m. or 7:30 p.m.? </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>The answer to a subtraction problem is the 			. </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>145 + 634 = ? </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>Is 61 closer to 60 or 70? </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>How much money do you have if you have 4 quarters? </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>You would use a tape measure to find 		. A) how tall a doorway is   		C) how much food a worm eats B) how heavy a grocery bag is   	D) all of these </content>
+        <choices>A)
+          <choice letter="A">how tall a doorway is</choice>
+          C)
+          <choice letter="C">how much food a worm eats</choice>
+          B)
+          <choice letter="B">how heavy a grocery bag is</choice>
+          D)
+          <choice letter="D">all of these</choice>
+           </choices>
+        Question Type:
+        <type>multipleChoice</type>
+         </question>
+      <question>
+        <number>7</number>
+        <content>716 − 306 = ? </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>How much time has passed  between the two clocks? </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>Which digit is in the ones place in 239?  </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>22 + 34 + 19 = ? </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>What part is shaded?  </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>Count the objects in the array.  Write  two addition statements to show the sum.  </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>Fill in the sign to make this sentence true.     375  257  </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>Count by tens.         260, 270,        ,        , 300, 310,          </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Write your answers in centimeters. How long is A?   How long is B?   How much longer is B than A? </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>ruler 33.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:ruler 33.ai</graphicLink>
+      <imageLink>images/ruler 33.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>5 x 2.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:5 x 2.ai</graphicLink>
+      <imageLink>images/5 x 2.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L14 Numberline.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L14 Numberline.ai</graphicLink>
+      <imageLink>images/L14 Numberline.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 700.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 700.ai</graphicLink>
+      <imageLink>images/Clock 700.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 500.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 500.ai</graphicLink>
+      <imageLink>images/Clock 500.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>15</lessonName>
+      
+    <pageName>30</pageName>
+    <questions>Lesson #
+      <lessonName>15</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Write your answers in centimeters. How long is A?   How long is B?   How much shorter is A than B? </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>8 + 7 = ? </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>25 + 10 + 35 = ? </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>20 + 400 + 6 is what number? </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>Write the time shown on the clock. </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>Write the base-ten number for four hundred twenty-five.  </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>836 − 216 = ? </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Look at the picture.  Is the  number of dogs even or odd?   </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>Find the nail on page 76 of your Hands-On pages.  Measure it to the nearest inch.  </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Fill in the sign to make this sentence true.    875  688 </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Write this as a base-ten numeral.        88 tens and 7 ones </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>Would the length of a computer screen be 40 meters or 40 centimeters? </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>What is the name of the shape?  </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>Jason planted 19 seeds in one carton and 16 seeds in another carton.  How many seeds did Jason plant in all? </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Count the objects in the array.  Write two  addition statements to show the sum. </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>dogs.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:dogs.ai</graphicLink>
+      <imageLink>images/dogs.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L12 hexagon.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L12 hexagon.ai</graphicLink>
+      <imageLink>images/L12 hexagon.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>3 x 5_1.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:3 x 5_1.ai</graphicLink>
+      <imageLink>images/3 x 5_1.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>ruler 39.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:ruler 39.ai</graphicLink>
+      <imageLink>images/ruler 39.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 640.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 640.ai</graphicLink>
+      <imageLink>images/Clock 640.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>16</lessonName>
+      
+    <pageName>32</pageName>
+    <questions>Lesson #
+      <lessonName>16</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Would Robyn be 100 centimeters tall or 100 meters tall? </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>If you have five quarters, do you have more or less than a dollar? </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>Put the numbers in order from least to greatest.     57, 10, 29, 19, 41  </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>446 + 312 = ? </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>Is this shape divided into two equal parts? </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>Marsha rode her bike 25 miles on Monday, 30 miles on Tuesday,  and 18 miles on Wednesday.  How many miles did Marsha ride in all?  Write a number sentence and solve it. </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>Write this as a base-ten numeral.     8 tens, 7 ones, and 9 hundreds </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Draw a rectangle that has two equal rows and four equal columns.  How many small squares are in the rectangle?  </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>574 − 322 = ? </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Is this figure a cube? </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>What number does the symbol stand for?      ☻ + 13 = 20 </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>The 		 is the answer to a subtraction problem. </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>Tommy picked 36 pears on Wednesday and 15 pears on Thursday.  How many more pears did he pick on Wednesday? </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>What number is 10 more than 66? </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>How many boats were on the  lake in all? 		How many more paddleboats  than canoes were on the lake? </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>L16.eps</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L16.eps</graphicLink>
+      <imageLink>images/L16.eps.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L16 Arrow.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L16 Arrow.ai</graphicLink>
+      <imageLink>images/L16 Arrow.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>87 Chart.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:87 Chart.ai</graphicLink>
+      <imageLink>images/87 Chart.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>17</lessonName>
+      
+    <pageName>34</pageName>
+    <questions>Lesson #
+      <lessonName>17</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Fill in the missing numbers.   425, 	     , 445, 	     , 	        , 	   </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>Write 931 using words. </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>What number comes right before 700? </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>78¢ + 35¢ = ? </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>What time is it? </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>29 + ? = 56 </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>769 − 367 = ? </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Find Pencil A on page 77 of your Hands-On pages.  Measure it to the nearest inch.  </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>The sum is the answer to a(n) 			 problem. </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Manny and Tyrell are selling raffle tickets.  Manny sold 15 tickets this week and 14 tickets last week.  Tyrell sold 20 tickets this week and 7 tickets last week.  Who sold more tickets?  Write two number sentences and solve them. </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>558 + 231 = ? </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>If you have five dimes and three quarters, do you have more or less than a dollar? </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>Which is longer, 9 inches or 1 foot? </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>Count the objects in the array.  Write two  addition statements to show the sum. </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Would a dog be 20 or 60 inches high? </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>L17 tickets.eps</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L17 tickets.eps</graphicLink>
+      <imageLink>images/L17 tickets.eps.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>2 x 4_1.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:2 x 4_1.ai</graphicLink>
+      <imageLink>images/2 x 4_1.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 125.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 125.ai</graphicLink>
+      <imageLink>images/Clock 125.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>18</lessonName>
+      
+    <pageName>36</pageName>
+    <questions>Lesson #
+      <lessonName>18</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Fourteen students measured their heights.  How many students measured  48 inches or taller?  How many students measured  47 inches or shorter? </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>What is the name of the shape that has 4 sides and 4 angles? 		           A)  triangle           B)  hexagon         C)  quadrilateral </content>
+        <choices>A)
+          <choice letter="A">triangle</choice>
+          B)
+          <choice letter="B">hexagon</choice>
+          C)
+          <choice letter="C">quadrilateral</choice>
+           </choices>
+        Question Type:
+        <type>multipleChoice</type>
+         </question>
+      <question>
+        <number>3</number>
+        <content>Fill in the sign to make this sentence true.     422  326 </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>Write the next four odd numbers.  1,          ,          ,          ,  	      </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>624 + 323 = ? </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>27 + 21 + 35 + 42 = ? </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>Draw a rectangle that has two equal rows and two equal columns.  How many small squares are in the rectangle?  </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>90 + 6 + 400 is what number?  </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>Write your answers in centimeters. How long is A?   How long is B?   How much longer is B than A? What is the sum of the two lengths? </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Would an umbrella be 6 centimeters or 60 centimeters wide? </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Write this as a base-ten numeral.        90 tens and 3 ones </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>I have four hundreds, two tens, and six ones.  What number am I? </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>Rachel cut four pieces of celery.  Each piece was 7 inches long.   How many inches of celery did Rachel have?  Write a number sentence and solve it. </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>488 − 236 = ? </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>How long does lunch last? 		Which activity lasts the longest? </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>L18Chart.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L18Chart.ai</graphicLink>
+      <imageLink>images/L18Chart.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>ruler 40.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:ruler 40.ai</graphicLink>
+      <imageLink>images/ruler 40.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Line Plot (height - in).ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Line Plot (height - in).ai</graphicLink>
+      <imageLink>images/Line Plot (height - in).ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>19</lessonName>
+      
+    <pageName>38</pageName>
+    <questions>Lesson #
+      <lessonName>19</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Second and third graders use the playground at recess.  Mrs. Wise counted 17 second graders.  When the bell rang, 29 students lined  up to go inside.  How many of them were third graders? </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>53 + 39 = ? </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>How much money is 9 quarters? </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>Which is longer, 30 minutes or 1 hour? </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>825 − 314 = ? </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>Put the numbers in order from greatest to least.    153    513     521 </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>Would a large pizza be closer to 45 centimeters or 75 centimeters across? </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Trace over the dotted lines in the answer box.  There are 4 rows.  How many columns are there? </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>Is 27 closer to 20 or to 30? </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Jason left for school at 8:15 a.m. or 8:15 p.m.? </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>What number comes between 265 and 450? 				  A)  145              B)  567              C)  358 </content>
+        <choices>A)
+          <choice letter="A">145</choice>
+          B)
+          <choice letter="B">567</choice>
+          C)
+          <choice letter="C">358</choice>
+           </choices>
+        Question Type:
+        <type>multipleChoice</type>
+         </question>
+      <question>
+        <number>12</number>
+        <content>Write this as a base-ten numeral.        16 tens and 8 ones </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>Write the name of the shape. </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>The kitchen will get a new sink that is 22 inches wide.  The countertop is 62 inches wide.  How much longer is the countertop  than the sink?  Write a number sentence and solve it. </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Monica bought a tablet for $2.15 and a sticker book for $1.45.   How much money did she spend?</content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>L19 recess.eps</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L19 recess.eps</graphicLink>
+      <imageLink>images/L19 recess.eps.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L19 Number line.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L19 Number line.ai</graphicLink>
+      <imageLink>images/L19 Number line.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L12 hexagon.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L12 hexagon.ai</graphicLink>
+      <imageLink>images/L12 hexagon.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>4 x 1.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:4 x 1.ai</graphicLink>
+      <imageLink>images/4 x 1.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>20</lessonName>
+      
+    <pageName>40</pageName>
+    <questions>Lesson #
+      <lessonName>20</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Which digit is in the ones place in 654? </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>664 + 125 = ? </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>Would a can of soda be 12 centimeters  or 50 centimeters tall? </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>What tool would you use to find the length of a hallway?       A)  tape measure       B)  timer       C)  thermometer </content>
+        <choices>A)
+          <choice letter="A">tape measure</choice>
+          B)
+          <choice letter="B">timer</choice>
+          C)
+          <choice letter="C">thermometer</choice>
+           </choices>
+        Question Type:
+        <type>multipleChoice</type>
+         </question>
+      <question>
+        <number>5</number>
+        <content>Find the fork on page 76 of your Hands-On pages.  Measure it to the nearest inch. </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>Write the name of the figure. </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>What number does the symbol stand for?       15 −  ☼  = 6  </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Fill in the sign to make this sentence true.      796  988 </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>I have 27 tens.  What number am I? </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>65¢ − 32¢ = ? </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>How much time has passed between  the two clocks? </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>Write the base-ten number for five hundred ninety-six. </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>Draw a rectangle that has three equal rows and four equal columns.  How many small squares are in the rectangle?  </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>899 − 345 = ? </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Charles has 55¢.  His brother gives him 2 dimes and then he buys a piece of gum for 15¢.  How much money does he have now? </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>Soda Pop Can.eps</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Soda Pop Can.eps</graphicLink>
+      <imageLink>images/Soda Pop Can.eps.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 700.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 700.ai</graphicLink>
+      <imageLink>images/Clock 700.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 1000.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 1000.ai</graphicLink>
+      <imageLink>images/Clock 1000.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>pentagon.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:pentagon.ai</graphicLink>
+      <imageLink>images/pentagon.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>21</lessonName>
+      
+    <pageName>42</pageName>
+    <questions>Lesson #
+      <lessonName>21</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Write this as a base-ten numeral.        900 + 30 + 7  </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>56 − 28 = ? </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>Is 78 closer to 70 or 80? </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>Put the numbers in order  from least to greatest.          913     941      655      947 </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>361 + 624 = ? </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>Is this figure divided into two equal parts? </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>If Juan buys a ball for 55¢ and a toy car for 88¢, how much did he spend in all? </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Write 294 using words. </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>Count the objects in the array.  Write two  addition statements to show the sum. </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>There are 26 students in Mrs. Vinci’s class, but only 14 students are in class today.  How many students are absent? </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Write this as a base-ten numeral.       3 tens, 8 ones, and 7 hundreds </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>11 − 6 = ? </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>What number is 10 less than 55?  </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>How much money is 5 dimes?	        </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>The picture shows how tall the plant was  two weeks ago.  Now, the plant is 18 inches  tall.  How many inches did the plant grow?   Write a number sentence. 	           +            = 18</content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>L21 Heart.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L21 Heart.ai</graphicLink>
+      <imageLink>images/L21 Heart.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L79plant with ruler.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L79plant with ruler.ai</graphicLink>
+      <imageLink>images/L79plant with ruler.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>4 x 5.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:4 x 5.ai</graphicLink>
+      <imageLink>images/4 x 5.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L21 Numberline.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L21 Numberline.ai</graphicLink>
+      <imageLink>images/L21 Numberline.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>22</lessonName>
+      
+    <pageName>44</pageName>
+    <questions>Lesson #
+      <lessonName>22</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>27 + 18 = ? </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>Which two are equal?         	A)  ten nickels      B)  one dollar      C)  one quarter 	D)  five dimes      </content>
+        <choices>A)
+          <choice letter="A">ten nickels</choice>
+          B)
+          <choice letter="B">one dollar</choice>
+          C)
+          <choice letter="C">one quarter</choice>
+          D)
+          <choice letter="D">five dimes</choice>
+           </choices>
+        Question Type:
+        <type>multipleChoice</type>
+         </question>
+      <question>
+        <number>3</number>
+        <content>Would a tube of toothpaste be closer to 20 centimeters or 35 centimeters long? </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>Draw a circle and divide it into two equal parts. </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>765 − 350 = ? </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>Look at the picture.  Is the number  of birds even or odd?   </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>I have 2 tens, 5 ones, and 8 hundreds.  What number am I? </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>What is the name of this shape? </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>546 + 153 = ? </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Count the objects in the array.  Write two  addition statements to show the sum.  </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Count by tens.        55,   65,            ,           ,              </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>Write this as a base-ten numeral.      29 tens and 4 ones </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>What tool would you use to find the width of a skateboard?             A)  ruler            B)  scale           C)  stopwatch    </content>
+        <choices>A)
+          <choice letter="A">ruler</choice>
+          B)
+          <choice letter="B">scale</choice>
+          C)
+          <choice letter="C">stopwatch</choice>
+           </choices>
+        Question Type:
+        <type>multipleChoice</type>
+         </question>
+      <question>
+        <number>14</number>
+        <content>Fill in the sign to make this sentence true.     642  624 </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>How long is the paper clip in inches? </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>L22 -ruler.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L22 -ruler.ai</graphicLink>
+      <imageLink>images/L22 -ruler.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName></graphicName>
+    </graphic>
+    <graphic>
+      <graphicName>4 x 3.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:4 x 3.ai</graphicLink>
+      <imageLink>images/4 x 3.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>birds.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:birds.ai</graphicLink>
+      <imageLink>images/birds.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>23</lessonName>
+      
+    <pageName>46</pageName>
+    <questions>Lesson #
+      <lessonName>23</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Write this as a base-ten numeral.        four hundred eighty-two </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>Is 32 closer to 30 or 40? </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>92 − 57 = ? </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>The merry-go-round can hold 24 people.  When the ride started, 22 people got on.  At the first stop, 16 got off and 11 people got on.  How many were on the merry-go-round then?  </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>Look at the picture.  Is the  number of tools even or odd?   </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>156 + 323 = ? </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>Write your answers in centimeters. How long is A?   How long is B?   How much longer is B than A? </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>A dollar bill is closer to 15 centimeters or 25 centimeters long? </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>Draw a rectangle that has four equal rows and four equal columns.  How many small squares are in the rectangle?  </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Count by fives.             55, 	, 	, 70 </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Fill in the sign to make this sentence true.     561  516 </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>Sean’s number is 50 less than 80.  What is Sean’s number? </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>What time is shown on the clock? </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>Which is greater, 9 dimes or $1.00? </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Mr. Filler’s yard is 63 feet wide.  Ms. Tomlin’s yard is 72 feet wide.  How much wider is Ms. Tomlin’s yard?  Write a number sentence  and solve it.   </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>L23 Ruler.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L23 Ruler.ai</graphicLink>
+      <imageLink>images/L23 Ruler.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>tools.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:tools.ai</graphicLink>
+      <imageLink>images/tools.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L23 Numberline.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L23 Numberline.ai</graphicLink>
+      <imageLink>images/L23 Numberline.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 845.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 845.ai</graphicLink>
+      <imageLink>images/Clock 845.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>24</lessonName>
+      
+    <pageName>48</pageName>
+    <questions>Lesson #
+      <lessonName>24</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>618 + 251 = ? </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>Would most french fries be closer to 10 centimeters  or 30 centimeters long? </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>Is 47 closer to 40 or 50?  </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>Draw two quadrilaterals. </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>Write the name of the shape. </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>832 − 511 = ? </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>The difference is the answer to a(n) 				 problem. </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Count the objects in the array.   Write an addition statement to  show the sum. </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>8 + 7 = ? </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>How much time has passed from one clock to the next? </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Write this as a base-ten numeral.        700 + 70 + 7 </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>What number is 100 more than 112? </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>Fill in the sign to make this sentence true.      412  831 </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>Draw a circle that is divided into four equal parts. </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Write your answers in centimeters.   How long is A?   How long is B?   How much longer is B  than A? </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName></graphicName>
+    </graphic>
+    <graphic>
+      <graphicName>Fries.eps</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Fries.eps</graphicLink>
+      <imageLink>images/Fries.eps.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>ruler 34.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:ruler 34.ai</graphicLink>
+      <imageLink>images/ruler 34.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>3 x 1.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:3 x 1.ai</graphicLink>
+      <imageLink>images/3 x 1.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L87.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L87.ai</graphicLink>
+      <imageLink>images/L87.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 100.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 100.ai</graphicLink>
+      <imageLink>images/Clock 100.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 900.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 900.ai</graphicLink>
+      <imageLink>images/Clock 900.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>25</lessonName>
+      
+    <pageName>50</pageName>
+    <questions>Lesson #
+      <lessonName>25</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Write 462 using words. </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>Draw a pentagon. </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>What time is shown on the clock? </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>What number does the symbol stand for?       97 − ♥ = 93 </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>Write this as a base-ten numeral.         30 + 600 + 4 </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>How many cents do you have if you have seven dimes and three nickels? </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>Look at the picture.  Is the  number of objects even or odd? </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Would a dog’s tail be 25 centimeters or 125 centimeters long? </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>Which is the best tool for measuring the length of your bicycle?        A)  measuring cup	                 	C)  measuring tape	        B)  scale					D)  telescope </content>
+        <choices>A)
+          <choice letter="A">measuring cup</choice>
+          C)
+          <choice letter="C">measuring tape</choice>
+          B)
+          <choice letter="B">scale</choice>
+          D)
+          <choice letter="D">telescope</choice>
+           </choices>
+        Question Type:
+        <type>multipleChoice</type>
+         </question>
+      <question>
+        <number>10</number>
+        <content>Fill in the sign to make this sentence true.    25  25 = 50  </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>638 + 251 = ? </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>Which shape is divided into  two equal parts?  Draw it.   </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>834 − 622 = ? </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>What number is 100 less than 313? </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>How many total animals were  in the barnyard? 		How many more chickens than  cows were there? </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>objects.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:objects.ai</graphicLink>
+      <imageLink>images/objects.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L25Chart (edit).ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L25Chart (edit).ai</graphicLink>
+      <imageLink>images/L25Chart (edit).ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 1020.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 1020.ai</graphicLink>
+      <imageLink>images/Clock 1020.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName></graphicName>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>26</lessonName>
+      
+    <pageName>52</pageName>
+    <questions>Lesson #
+      <lessonName>26</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>I have three hundreds, five tens, and seven ones.  What number am I? </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>Write the name of the shape. </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>45 + 31 + 12 = ? </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>A stack of four boxes is 64 inches high.  Two boxes are each 16 inches tall and another is 20 inches tall.  How tall is the fourth box? </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>The answer to a(n) addition problem is the 	        . </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>How much time has passed  between the two clocks? </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>625 − 313 = ? </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Eight quarters are the same amount of money as two  		. </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>Write two equal addends.	   	  +         = 14 </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Write this as a base-ten numeral. 	6 ones,  6 hundreds, and 1 ten </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Order these numbers from greatest to least.    555    141     783    248 </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>Is 62 closer to 60 or 70? </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>Fill in the sign to make this sentence true.          452  524 </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>Write 916 using words. </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>The graph shows items that were sold  at the bake sale.  Which item sold the most? 		How many more muffins than cakes  were sold?  Write a number sentence. </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>L26 Graph (edit).ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L26 Graph (edit).ai</graphicLink>
+      <imageLink>images/L26 Graph (edit).ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L26 number Line.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L26 number Line.ai</graphicLink>
+      <imageLink>images/L26 number Line.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 230.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 230.ai</graphicLink>
+      <imageLink>images/Clock 230.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 530.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 530.ai</graphicLink>
+      <imageLink>images/Clock 530.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName></graphicName>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>27</lessonName>
+      
+    <pageName>54</pageName>
+    <questions>Lesson #
+      <lessonName>27</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>What number is 100 more than 862? </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>853 + 146 = ? </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>Draw a rectangle that has three equal rows  and two equal columns.  How many small  squares are in the rectangle?  </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>Lucy’s number is 12 less than 24.  What is Lucy’s number? </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>Cory is making a doghouse.  One side will be 36 inches long, and the back will be 21 inches long.  How much longer is the side than the back of the doghouse?  Write a number sentence and solve it. </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>What number comes just before 900? </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>Draw a circle that is divided into thirds. </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Write the time shown on the clock. </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>If you have seven nickels, how many cents do you have? </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Fill in a sign to make this sentence true.       576  655 </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Order the numbers from least to greatest.   385     279      28      436 </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>Fill in the sign to make this sentence true.      92  56 = 36 </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>32 + 26 + 11 = ? </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>854 − 432 = ?	 </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Count the objects in the array.  Write two  addition statements to show the sum. </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>Dog House.eps.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Dog House.eps.ai</graphicLink>
+      <imageLink>images/Dog House.eps.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>5 x 4.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:5 x 4.ai</graphicLink>
+      <imageLink>images/5 x 4.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 615.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 615.ai</graphicLink>
+      <imageLink>images/Clock 615.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>28</lessonName>
+      
+    <pageName>56</pageName>
+    <questions>Lesson #
+      <lessonName>28</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>When Tia was born, her parents planted a tree that was 17 inches tall.  Now the tree is 65 inches tall.  How many inches has the tree grown since Tia was born?  Write a number sentence and solve it. </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>943 − 385 = ? </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>Draw a shape with six sides and six angles. </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>A number has 4 hundreds, 5 tens, and 3 ones.  What is the number? </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>Write your answers in inches. How long is A?   How long is B?   How much longer is B than A? </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>Fill in the sign to make this sentence true.   318  138 </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>Would Will’s desk be closer to 20 centimeters or 80 centimeters high? </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Peggy has three quarters and two nickels.  Nicki has a dollar bill.  Who has more money, Peggy or Nicki? </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>How many hours are in a day? </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>645 + 253 = ? </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Count the objects in the array.  Write an  addition statement to show the sum. </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>6 + ? = 14 </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>Write two equal addends.	   	  +         = 16 </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>Which shape is divided into four equal parts? </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Would the ping pong paddle be closer to 17 centimeters or 34 centimeters wide? </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>5 x 5.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:5 x 5.ai</graphicLink>
+      <imageLink>images/5 x 5.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L28 Shapes.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L28 Shapes.ai</graphicLink>
+      <imageLink>images/L28 Shapes.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L28 ruler.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L28 ruler.ai</graphicLink>
+      <imageLink>images/L28 ruler.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>29</lessonName>
+      
+    <pageName>58</pageName>
+    <questions>Lesson #
+      <lessonName>29</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Count by tens.    650, 660, 	, 	   , 	       </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>Is this figure a square? </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>Which digit is in the tens place in 579? </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>There are 58 students in the school band.  Twenty-six students play a wind instrument.  How many students do not play a wind instrument?  </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>475 + 323 = ? </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>$2.65 − $1.53 = ? </content>
+      </question>
+      <question>
+        <number>7</number>
+        <content>Fill in the sign to make this sentence true.       314  143 </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>If you want to measure how tall your sister is, which is the best tool to use? 				A)  meter stick     		C)  measuring cup      		B)  stopwatch     			D)  spring scale </content>
+        <choices>A)
+          <choice letter="A">meter stick</choice>
+          C)
+          <choice letter="C">measuring cup</choice>
+          B)
+          <choice letter="B">stopwatch</choice>
+          D)
+          <choice letter="D">spring scale</choice>
+           </choices>
+        Question Type:
+        <type>multipleChoice</type>
+         </question>
+      <question>
+        <number>9</number>
+        <content>Draw a rectangle in your answer box.   Divide the rectangle into thirds.   Color a third of the rectangle. </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>What time is it on this clock? </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>Keesha lined up all her shoes against a wall in the closet.  The wall was 38 inches wide, and the line of shoes was 27 inches long.  How many inches were left at the end of the line of shoes? </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>Find the credit card on page 76 of your Hands-On pages.  Measure  the length to the nearest inch. </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>Twenty nickels are the same amount of money as one 	                . </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>Write this as a base-ten numeral.       6 ones, 9 hundreds, and 3 tens </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Is 21 closer to 20 or 30?  </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>clarinet (edit).ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:clarinet (edit).ai</graphicLink>
+      <imageLink>images/clarinet (edit).ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>L29 Number Line.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:L29 Number Line.ai</graphicLink>
+      <imageLink>images/L29 Number Line.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName></graphicName>
+    </graphic>
+    <graphic>
+      <graphicName>Clock 1140.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 1140.ai</graphicLink>
+      <imageLink>images/Clock 1140.ai.png</imageLink>
+    </graphic>
+  </lesson>
+  <lesson>Lesson #
+    <lessonName>30</lessonName>
+      
+    <pageName>60</pageName>
+    <questions>Lesson #
+      <lessonName>30</lessonName>
+        
+      <question>
+        <number>1</number>
+        <content>Write this as a base-ten numeral.       45 tens and 5 ones  </content>
+      </question>
+      <question>
+        <number>2</number>
+        <content>What number is 100 more than 334? </content>
+      </question>
+      <question>
+        <number>3</number>
+        <content>814 + 165 = ?  </content>
+      </question>
+      <question>
+        <number>4</number>
+        <content>What time is it?   </content>
+      </question>
+      <question>
+        <number>5</number>
+        <content>What number does the symbol stand for?      75 + ♣ = 100  </content>
+      </question>
+      <question>
+        <number>6</number>
+        <content>If you have three dollar bills, two quarters, and ten pennies, how  much money do you have? 				A)  $3 and 42¢     		C)  $3 and 52¢      				B)  $3 and 60¢     		D)  $3 and 35¢ </content>
+        <choices>A)
+          <choice letter="A">$3 and 42¢</choice>
+          C)
+          <choice letter="C">$3 and 52¢</choice>
+          B)
+          <choice letter="B">$3 and 60¢</choice>
+          D)
+          <choice letter="D">$3 and 35¢</choice>
+           </choices>
+        Question Type:
+        <type>multipleChoice</type>
+         </question>
+      <question>
+        <number>7</number>
+        <content>Write the missing numbers in the sequence.   25, 35, 	       , 55,  	       </content>
+      </question>
+      <question>
+        <number>8</number>
+        <content>Is this figure a cube? </content>
+      </question>
+      <question>
+        <number>9</number>
+        <content>15 + 36 + 24 = ? </content>
+      </question>
+      <question>
+        <number>10</number>
+        <content>Write this as a base-ten numeral.       1 + 500 + 80  </content>
+      </question>
+      <question>
+        <number>11</number>
+        <content>If you have 8 dimes and 4 nickels, how much money do you have? </content>
+      </question>
+      <question>
+        <number>12</number>
+        <content>The roll of paper towels would be 11 inches or 30 inches tall? </content>
+      </question>
+      <question>
+        <number>13</number>
+        <content>Count the objects in the array.  Write two  addition statements to show the sum. </content>
+      </question>
+      <question>
+        <number>14</number>
+        <content>46 − 18 = ? </content>
+      </question>
+      <question>
+        <number>15</number>
+        <content>Nine students measured the spans of their hands.  Here are the results. How many hands measured 10 cm  or narrower?	 How wide were most students’ hands? </content>
+      </question>
+    </questions>
+    <graphic>
+      <graphicName>Clock 350.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Clock 350.ai</graphicLink>
+      <imageLink>images/Clock 350.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>Line Plot (hands).ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:Line Plot (hands).ai</graphicLink>
+      <imageLink>images/Line Plot (hands).ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName>5 x 3.ai</graphicName>
+      <graphicLink>MyHD:Users:scottrichards:Box Sync:Partner - BRIGHT IDEAS PRESS:Bright Ideas Press App Review - Fat Red Couch:CCMath:InDesign - CCMath 2:Links:5 x 3.ai</graphicLink>
+      <imageLink>images/5 x 3.ai.png</imageLink>
+    </graphic>
+    <graphic>
+      <graphicName></graphicName>
+    </graphic>
+  </lesson>
+</Root>
