@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dibbz Scripts</title>
+<script src="//www.parsecdn.com/js/parse-1.5.0.min.js"></script>
+<script type="text/javascript">
+Parse.initialize("huArSXtIs6GFiVqZ0H7orZkF6Wiv640Zl5xHejJM", "m4Bb1D3QdulnqQX1mpjErt3aZphUwdJqfENKUkIh");
+
+function doLowerCase() {
+	var Items = Parse.Object.extend("Items");
+	var query = new Parse.Query(Items);
+	query.limit(200);
+	query.find({
+	  success: function(results) {
+		console.log("Successfully retrieved " + results.length + " items.");
+		// Do something with the returned Parse.Object values
+		for (var i = 0; i < results.length; i++) {
+		  var object = results[i];
+		  var lowerName = object.get('NameLower');
+		  if (!lowerName) {
+			  var lowerCaseName = object.get('Name').toLowerCase();
+			  console.log(object.id + ' - ' + object.get('Name') + ' = ' + lowerCaseName);
+			  object.set('NameLower',lowerCaseName);
+			  object.save();
+		  } else {
+			  console.log('ALREADY lower case: ' + lowerName);
+		  }
+		  if (object.get('Description')) {
+			  var lowerDescription = object.get('DescriptionLower');
+			  if (!lowerDescription) {
+				  var lowerCase = object.get('Description').toLowerCase();
+				  console.log(object.id + ' - ' + object.get('Description') + ' = ' + lowerCase);
+				  object.set('DescriptionLower',lowerCase);
+				  object.save();
+			  } 
+		  }
+//		  console.log(object.id + ' - ' + object.get('Name') );
+		}
+	  },
+	  error: function(error) {
+		alert("Error: " + error.code + " " + error.message);
+	  }
+	});
+}
+
+</script>
+</head>
+
+<body>
+<h2>Dibbz Scripts</h2>
+<p>Be careful running the following scripts make big updates across multiple records!</p>
+<p><a href="#" onClick="doLowerCase()">Retroactive Lower Case Item Fields</a> - Click this to make sure that there is a lowercase field NameLower for each Name field and DescriptionLower for each Description field
+</p>
+</body>
+</html>
