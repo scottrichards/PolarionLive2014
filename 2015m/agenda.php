@@ -15,7 +15,7 @@
 	
 ?>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Polarion Live 2014 Agenda</title>
+<title>Polarion Live 2015 Agenda</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="../jquery.mobile-1.4.4/jquery.mobile-1.4.4.min.css" rel="stylesheet" type="text/css" />
 	<link href="../_css/adminStyles.css" rel="stylesheet" type="text/css" />
