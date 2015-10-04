@@ -21,7 +21,7 @@
 </head>
 
 <body>
-<form id="form1" name="form1" method="post" action="../m/submitRaffle.php">
+<form id="form1" name="form1" method="post" action="submitRaffle.php">
   <h3>Your Thoughts for a Chance to Win</h3>
   <p>Submit a Testimonial to Enter the Drawing</p>
   <p>Share What's Great about Polarion:</p>
