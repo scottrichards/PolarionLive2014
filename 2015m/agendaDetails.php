@@ -15,7 +15,7 @@
 	
 ?>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Polarion Live 2014 Dashboard</title>
+<title>Polarion Live 2015</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="../jquery.mobile-1.4.4/jquery.mobile-1.4.4.min.css" rel="stylesheet" type="text/css" />
 	<link href="../_css/adminStyles.css" rel="stylesheet" type="text/css" />
@@ -63,7 +63,7 @@ function getTime($start,$end) {
   ?> 
 		
   <div>
-<form action="../m/sessionRating.php" <?php if ($sessionObject->get("icon") == "trophy" || $sessionObject->get("icon") == "coffee" || $sessionObject->get("icon") == "food") echo " class=\"hidden\"" ?> method="post">
+<form action="sessionRating.php" <?php if ($sessionObject->get("icon") == "trophy" || $sessionObject->get("icon") == "coffee" || $sessionObject->get("icon") == "food") echo " class=\"hidden\"" ?> method="post">
 		<p>
 		  <label for="speaker">Speaker:</label>
       <input name="presenterRating" type="text" id="presenterRating" max="5" min="0" value="0" size="5">(1=Not Good, 5 = Excellent)<br />
