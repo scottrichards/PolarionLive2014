@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Experts Sessions</title>
+<script src="//www.parsecdn.com/js/parse-1.5.0.min.js"></script>
+<script type="text/javascript">
+Parse.initialize("ytC7lrxAdRDvguofSHtRLyPe8DdiO5MdC4VdMDoz", "obLXeynofr6hqj20okegkUoEi4F7ay4NGG6ANfNG");
+doLoad();
+
+function doLoad()
+{
+	var ExpertSignupClass = Parse.Object.extend("ExpertSignup");
+	var query = new Parse.Query(ExpertSignupClass);
+	query.find({
+	  success: function(results) {
+		alert("Successfully retrieved " + results.length + " scores.");
+		// Do something with the returned Parse.Object values
+		for (var i = 0; i < results.length; i++) {
+		  var object = results[i];
+		  alert(object.id + ' - ' + object.get('session'));
+		}
+	  },
+	  error: function(error) {
+		alert("Error: " + error.code + " " + error.message);
+	  }
+	});
+}
+
+</script>
+</head>
+
+<body>
+Expert's Sign Up
+</body>
+</html>
