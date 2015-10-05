@@ -18,7 +18,8 @@ function doLoad()
 		// Do something with the returned Parse.Object values
 		for (var i = 0; i < results.length; i++) {
 		  var object = results[i];
-		  alert(object.id + ' - ' + object.get('session'));
+		  var user = object.get('user');
+		  alert(object.id + ' - ' + object.get('session') + ' user: ' + user.username);
 		}
 	  },
 	  error: function(error) {
