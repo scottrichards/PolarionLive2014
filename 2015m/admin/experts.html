@@ -12,7 +12,6 @@ function doLoad()
 {
 	var ExpertSignupClass = Parse.Object.extend("ExpertSignup");
 	var query = new Parse.Query(ExpertSignupClass);
-	query.include("user");
 	query.find({
 	  success: function(results) {
 		alert("Successfully retrieved " + results.length + " scores.");
@@ -20,7 +19,7 @@ function doLoad()
 		for (var i = 0; i < results.length; i++) {
 		  var object = results[i];
 		  var user = object.get('user');
-		  alert(object.id + ' - ' + object.get('session') + ' user: ' + user.username);
+		  alert(object.id + ' - ' + object.get('session') + ' user: ' + user.get('username'));
 		}
 	  },
 	  error: function(error) {
