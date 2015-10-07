@@ -55,5 +55,5 @@
 ?>
 </div>
 <div class="centered" style="margin-top:20px;">
-<a href="agenda.php">Agenda</a> </div>
+<a href="http://54.183.27.217/2015m/agenda.php">Agenda</a> </div>
 </body>
