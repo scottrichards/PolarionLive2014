@@ -34,7 +34,7 @@
 </head>
 
 <body>
-<form id="form1" name="form1" method="post" action="../m/expertsSignup.php">
+<form id="form1" name="form1" method="post" action="expertsSignup.php">
   <h2 class="centered">Meet the Experts</h2>
   <p>Select a Topic by Noon:</p>
   <p>

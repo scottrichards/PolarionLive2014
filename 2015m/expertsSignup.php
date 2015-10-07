@@ -36,7 +36,7 @@
 	use Parse\ParseQuery;
 	use Parse\ParseUser;
  
-	ParseClient::initialize('eo7wLLlQekmYfJJ77gmXhQkTfFC3qK0OvKV8pFYK', 'ojNzbqHndG4S4cz9xDPkuwa6R3GNwzMiNwSh23TY', 'L1UcjLzDovHeWVpDzGj8ruUNrJXdTx43pzdushnO');
+	ParseClient::initialize('ytC7lrxAdRDvguofSHtRLyPe8DdiO5MdC4VdMDoz', 'iEkDJrIdoFFaGZrO2aCFWHJC0uBMbmV3DJxS0rSs', '0VA3z2dv24ilo3Iib400H2Zm7nsGLi5gZByH20ON');
 	
 	
 	$signup= new ParseObject("ExpertSignUp");
@@ -54,5 +54,5 @@
 ?>
 </div>
 <div class="centered" style="margin-top:20px;">
-<a href="../m/agenda.php">Agenda</a> </div>
+<a href="agenda.php">Agenda</a> </div>
 </body>
