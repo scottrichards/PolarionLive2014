@@ -28,6 +28,7 @@
 <?php 
 	$query = new ParseQuery("ExpertSignUp");
 	$query->ascending("session");
+	$query->includeKey("user");
 	$results = $query->find();
   ?> 
 	<div data-role="header">
@@ -49,10 +50,10 @@
  
 function getSessionName($sessionId) {
   switch ($sessionId) {
-		case 0 : return "Polarion API & Wiki";
+		case 0 : return "Polarion API & Widgets";
 		case 1 : return "Polarion Integrations";
 		case 2 : return "Process & Workflow";
-		case 3 : return "Features & Usage";
+		case 3 : return "New Features";
 	}
 }
 	
