@@ -37,11 +37,25 @@
 	use Parse\ParseUser;
  
 	ParseClient::initialize('ytC7lrxAdRDvguofSHtRLyPe8DdiO5MdC4VdMDoz', 'iEkDJrIdoFFaGZrO2aCFWHJC0uBMbmV3DJxS0rSs', '0VA3z2dv24ilo3Iib400H2Zm7nsGLi5gZByH20ON');
+	$topicName = "";
+	switch ($_POST['topic']) {
+    case 0:
+        $topicName = "Polarion API & Widgets";
+        break;
+    case 1:
+        $topicName = "Polarion Integrations";
+        break;
+    case 2:
+        $topicName = "Process & Workflow";
+        break;
+	case 3: 
+	    $topicName = "New Features";
+		break;
+	}
 	
-	
-	$signup= new ParseObject("ExpertSignUp");
+	$signup= new ParseObject("ExpertSignup");
 	$signup->set("email",$_POST['email']);
-	$signup->set("session",intval($_POST['topic']));
+	$signup->set("session",$topicName);
 	try {
 		$signup->save();
 		echo '<h3>Thank You for Signing Up!<h3/>';

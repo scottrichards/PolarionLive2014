@@ -40,10 +40,10 @@
   <p>
     <label>
       <select name="topic" id="topic">
-        <option value="0">Polarion API &amp; WIKI</option>
+        <option value="0">Polarion API &amp; Widgets</option>
         <option value="1">Polarion Integrations</option>
         <option value="2">Process &amp; Workflow</option>
-        <option value="3">Features &amp; Usage</option>
+        <option value="3">New Features</option>
       </select>
     </label>
   </p>
