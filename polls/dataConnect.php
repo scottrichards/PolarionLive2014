@@ -50,9 +50,19 @@ if (isset($_GET['totalRows_Recordset1'])) {
   $totalRows_Recordset1 = mysql_num_rows($all_Recordset1);
 }
 $totalPages_Recordset1 = ceil($totalRows_Recordset1/$maxRows_Recordset1)-1;
-
-
-
+?>
+<?php
+	ini_set('display_errors', 'On');
+	error_reporting(E_ALL);
+	
+	require '../vendor/autoload.php';
+ 
+	use Parse\ParseClient;
+    use Parse\ParseObject;
+	use Parse\ParseQuery;
+ 
+	ParseClient::initialize('7vtrNXPqcDSOZGEx3tEqsjOCsE8hl8PY9pwU8SLA', 'W2GSPzRe0JCCaopCsiRJkpRgIIW7YDlITdTEGOcE', '7rfI840ImjqlUulD5DwkwGYMcoAhpdgrQxTr6urw');
+	
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -64,14 +74,40 @@ $totalPages_Recordset1 = ceil($totalRows_Recordset1/$maxRows_Recordset1)-1;
 <body>
 
 <?php 
+
+	// Create the Category Object for the Question Group
+	$categoryObject = new ParseObject("Categories");
+	$categoryObject->set("title", "3 Month");
+	try {
+		$categoryObject->save();
+		echo 'New Category created with objectId: ' . $categoryObject->getObjectId();
+	} catch (ParseException $ex) {  
+		// Execute any logic that should take place if the save fails.
+		// error is a ParseException object with an error code and message.
+		echo 'Failed to create Category object, with error message: ' . $ex->getMessage();
+	}
+	
 	do { 
+	  
 		print "<p>id: " .  $row_Recordset1['id'] . "</p>";
 		print "<h3>QUESTION: " . $row_Recordset1['question'] . "</h3>";
 		print "<hr/>"; 
 		print "<hr/>"; 
 		
+		$questionObject = new ParseObject("Questions");
+		$questionObject->set("question", $row_Recordset1['question']);
+		$questionObject->set("category", $categoryObject);
+		try {
+			$questionObject->save();
+			echo 'New Question object created with objectId: ' . $questionObject->getObjectId();
+		} catch (ParseException $ex) {  
+			// Execute any logic that should take place if the save fails.
+			// error is a ParseException object with an error code and message.
+			echo 'Failed to create Question object, with error message: ' . $ex->getMessage();
+		}
+	
 		// Query answers
-	// ------------------
+		// ------------------
 	
 		$query_Answers = "SELECT answer, `ordinal`
 		FROM `poll_answer`
@@ -83,7 +119,20 @@ $totalPages_Recordset1 = ceil($totalRows_Recordset1/$maxRows_Recordset1)-1;
 		$totalRows_AnswersRecordset = mysql_num_rows($all_AnswersRecordset);
 		$totalPages_AnswersRecordset = ceil($totalRows_AnswersRecordset/20)-1;
 		do { 
-			print "<p>ordinal: " .  $row_AnswersRecordset['ordinal'] . "</p>";
+//			print "<p>ordinal: " .  $row_AnswersRecordset['ordinal'] . "</p>";
+			// Parse Create and save Answer Object
+			$answerObject = new ParseObject("Answers");
+			$answerObject->set("answer", $row_AnswersRecordset['answer']);
+			$answerObject->set("question", $questionObject);
+			try {
+				$answerObject->save();
+				echo 'New Answer object created with objectId: ' . $answerObject->getObjectId();
+			} catch (ParseException $ex) {  
+				// Execute any logic that should take place if the save fails.
+				// error is a ParseException object with an error code and message.
+				echo 'Failed to create Answer object, with error message: ' . $ex->getMessage();
+			}
+			
 			print "<p>Answer: ";
 			print $row_AnswersRecordset['answer'];
 			print "</p>";
