@@ -43,6 +43,7 @@
 		// Global Page Variables
 		var questionId = "";		    // gets set by reading the questionId url parameter
 		var questionObject = null;  // the selected question Object
+    var answerQuery = null;
     
 		$(document).ready(function() {
 			doLoad();
@@ -79,17 +80,24 @@
 		
 		function doLoad()
 		{
-			var AnswersClass = Parse.Object.extend("Answers");
+			
 			var Question = Parse.Object.extend("Questions");
-			var query = new Parse.Query(AnswersClass);
+			
 	
 			questionId = urlParam('questionId');
 			queryQuestion(questionId);
-			var question = new Question();
+			var AnswersClass = Parse.Object.extend("Answers");
+      answerQuery = new Parse.Query(AnswersClass);
+      var question = new Question();
 			console.log("Question Id: " + questionId);
 			question.id = questionId;
-			query.equalTo("question", question);
-			query.find({
+			answerQuery.equalTo("question", question);
+      loadAnswers(answerQuery);
+		}
+    
+    function loadAnswers(answerQuery)
+    {
+			answerQuery.find({
 			  success: function(results) {
 				// Do something with the returned Parse.Object values
 				var returnStr = "";
@@ -101,13 +109,14 @@
 				  returnStr += "<tr><td>" + questionNumber + "</td><td>" + object.get('answer') + "</td></tr>";
 				}
 				console.log("Append: " + returnStr);
+        $("#tableId").find('tbody').empty();
 				$("#tableId").find('tbody').append(returnStr);
 			  },
 			  error: function(error) {
 				alert("Error: " + error.code + " " + error.message);
 			  }
 			});
-		}
+    }
 		
 		function addAnswer() 
 		{
@@ -124,6 +133,7 @@
       answer.save(null, {
         success: function(gameScore) {
           $("#answerPanel").addClass("hidden");
+          loadAnswers(answerQuery);
         },
         error: function(gameScore, error) {
           // Execute any logic that should take place if the save fails.
