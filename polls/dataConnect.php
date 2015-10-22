@@ -63,13 +63,25 @@ $totalPages_Recordset1 = ceil($totalRows_Recordset1/$maxRows_Recordset1)-1;
 
 <?php 
 	do { 
-		echo "id: " + $row_Recordset1['id']; 
-		echo "<br />";
-		echo "question: " + $row_Recordset1['question'] + "<br />";
-		echo "<hr/>"; 
+		print "<p>id: " .  $row_Recordset1['id'] . "</p>";
+		print "<p>question: ";
+		print $row_Recordset1['question'];
+		print "</p>";
+		print "<hr/>"; 
+		
   } while ($row_Recordset1 = mysql_fetch_assoc($Recordset1));
  ?>
- 
+<form>
+  <p>
+    <label for="inputCategory">Input Category:</label>
+    <input type="text" name="inputCategory" id="inputCategory" />
+    
+  </p>
+  <p>
+    <label for="categoryName">New Category Name:</label>
+    <input type="text" name="categoryName" id="categoryName" />
+  </p>
+</form> 
 <table width="80%" border="1">
   <tr>
     <td>Id</td>
@@ -86,6 +98,7 @@ $totalPages_Recordset1 = ceil($totalRows_Recordset1/$maxRows_Recordset1)-1;
   <?php } while ($row_Recordset1 = mysql_fetch_assoc($Recordset1)); ?>
 
 </table>
+<p>&nbsp;</p>
 </body>
 </html>
 <?php
