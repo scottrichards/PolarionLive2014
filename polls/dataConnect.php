@@ -66,19 +66,16 @@ $totalPages_Recordset1 = ceil($totalRows_Recordset1/$maxRows_Recordset1)-1;
 <?php 
 	do { 
 		print "<p>id: " .  $row_Recordset1['id'] . "</p>";
-		print "<p>question: ";
-		print $row_Recordset1['question'];
-		print "</p>";
+		print "<h3>QUESTION: " . $row_Recordset1['question'] . "</h3>";
+		print "<hr/>"; 
 		print "<hr/>"; 
 		
-  } while ($row_Recordset1 = mysql_fetch_assoc($Recordset1));
-
-	// Query answers
+		// Query answers
 	// ------------------
 	
 		$query_Answers = "SELECT answer, `ordinal`
 		FROM `poll_answer`
-		WHERE poll_answer.question_id = 1490656";
+		WHERE poll_answer.question_id = " . $row_Recordset1['id'] . " ORDER BY `ordinal`";
 		$query_limit_AnswerRecordset = sprintf("%s LIMIT %d, %d", $query_Answers, 0, 20);
 		$answersRecordsetQuery = mysql_query($query_limit_AnswerRecordset, $bcContent) or die(mysql_error());
 		$row_AnswersRecordset = mysql_fetch_assoc($answersRecordsetQuery);
@@ -87,12 +84,17 @@ $totalPages_Recordset1 = ceil($totalRows_Recordset1/$maxRows_Recordset1)-1;
 		$totalPages_AnswersRecordset = ceil($totalRows_AnswersRecordset/20)-1;
 		do { 
 			print "<p>ordinal: " .  $row_AnswersRecordset['ordinal'] . "</p>";
-			print "<p>question: ";
+			print "<p>Answer: ";
 			print $row_AnswersRecordset['answer'];
 			print "</p>";
 			print "<hr/>"; 
 			
 		} while ($row_AnswersRecordset = mysql_fetch_assoc($answersRecordsetQuery));
+		
+		
+  } while ($row_Recordset1 = mysql_fetch_assoc($Recordset1));
+
+	
 	
  ?>
 <form>
