@@ -39,9 +39,14 @@ if (isset($_GET['pageNum_Recordset1'])) {
 $startRow_Recordset1 = $pageNum_Recordset1 * $maxRows_Recordset1;
 
 mysql_select_db($database_bcContent, $bcContent);
-$query_Recordset1 = "SELECT * FROM poll_question";
+//$query_Recordset1 = "SELECT * FROM poll_question";
+echo "SQL Query";
+//$query_Recordset1 = "SELECT * FROM poll_question JOIN poll_relationship ON poll_question.poll_id = poll_relationship.poll_id WHERE poll_relationship.group_id = 35";
+$query_Recordset1 = "SELECT pq.id questionId, pq.question FROM poll_question pq JOIN poll_relationship ON pq.poll_id = poll_relationship.poll_id WHERE poll_relationship.group_id = 35";
 $query_limit_Recordset1 = sprintf("%s LIMIT %d, %d", $query_Recordset1, $startRow_Recordset1, $maxRows_Recordset1);
+echo "SQL Query2";
 $Recordset1 = mysql_query($query_limit_Recordset1, $bcContent) or die(mysql_error());
+echo "Completed Query";
 $row_Recordset1 = mysql_fetch_assoc($Recordset1);
 if (isset($_GET['totalRows_Recordset1'])) {
   $totalRows_Recordset1 = $_GET['totalRows_Recordset1'];
@@ -74,13 +79,16 @@ $totalPages_Recordset1 = ceil($totalRows_Recordset1/$maxRows_Recordset1)-1;
 <body>
 
 <?php 
-
+	$doSave = false;
+	
 	// Create the Category Object for the Question Group
 	$categoryObject = new ParseObject("Categories");
-	$categoryObject->set("title", "3 Month");
+	$categoryObject->set("name", "3 Month");
 	try {
-		$categoryObject->save();
-		echo 'New Category created with objectId: ' . $categoryObject->getObjectId();
+		if ($doSave) {
+			$categoryObject->save();
+			echo 'New Category created with objectId: ' . $categoryObject->getObjectId();
+		}
 	} catch (ParseException $ex) {  
 		// Execute any logic that should take place if the save fails.
 		// error is a ParseException object with an error code and message.
@@ -88,8 +96,8 @@ $totalPages_Recordset1 = ceil($totalRows_Recordset1/$maxRows_Recordset1)-1;
 	}
 	
 	do { 
-	  
-		print "<p>id: " .  $row_Recordset1['id'] . "</p>";
+	  var_dump($row_Recordset1);
+		print "<p>id: " .  $row_Recordset1['questionId'] . "</p>";
 		print "<h3>QUESTION: " . $row_Recordset1['question'] . "</h3>";
 		print "<hr/>"; 
 		print "<hr/>"; 
@@ -98,8 +106,10 @@ $totalPages_Recordset1 = ceil($totalRows_Recordset1/$maxRows_Recordset1)-1;
 		$questionObject->set("question", $row_Recordset1['question']);
 		$questionObject->set("category", $categoryObject);
 		try {
-			$questionObject->save();
-			echo 'New Question object created with objectId: ' . $questionObject->getObjectId();
+			if ($doSave) {
+				$questionObject->save();
+				echo 'New Question object created with objectId: ' . $questionObject->getObjectId();
+			}
 		} catch (ParseException $ex) {  
 			// Execute any logic that should take place if the save fails.
 			// error is a ParseException object with an error code and message.
@@ -111,34 +121,39 @@ $totalPages_Recordset1 = ceil($totalRows_Recordset1/$maxRows_Recordset1)-1;
 	
 		$query_Answers = "SELECT answer, `ordinal`
 		FROM `poll_answer`
-		WHERE poll_answer.question_id = " . $row_Recordset1['id'] . " ORDER BY `ordinal`";
+		WHERE poll_answer.question_id = " . $row_Recordset1['questionId'] . " ORDER BY `ordinal`";
 		$query_limit_AnswerRecordset = sprintf("%s LIMIT %d, %d", $query_Answers, 0, 20);
 		$answersRecordsetQuery = mysql_query($query_limit_AnswerRecordset, $bcContent) or die(mysql_error());
 		$row_AnswersRecordset = mysql_fetch_assoc($answersRecordsetQuery);
 		$all_AnswersRecordset = mysql_query($query_Answers);
 		$totalRows_AnswersRecordset = mysql_num_rows($all_AnswersRecordset);
 		$totalPages_AnswersRecordset = ceil($totalRows_AnswersRecordset/20)-1;
-		do { 
-//			print "<p>ordinal: " .  $row_AnswersRecordset['ordinal'] . "</p>";
-			// Parse Create and save Answer Object
-			$answerObject = new ParseObject("Answers");
-			$answerObject->set("answer", $row_AnswersRecordset['answer']);
-			$answerObject->set("question", $questionObject);
-			try {
-				$answerObject->save();
-				echo 'New Answer object created with objectId: ' . $answerObject->getObjectId();
-			} catch (ParseException $ex) {  
-				// Execute any logic that should take place if the save fails.
-				// error is a ParseException object with an error code and message.
-				echo 'Failed to create Answer object, with error message: ' . $ex->getMessage();
-			}
-			
-			print "<p>Answer: ";
-			print $row_AnswersRecordset['answer'];
-			print "</p>";
-			print "<hr/>"; 
-			
-		} while ($row_AnswersRecordset = mysql_fetch_assoc($answersRecordsetQuery));
+		if ($totalRows_AnswersRecordset > 0) 
+		{
+			do { 
+	//			print "<p>ordinal: " .  $row_AnswersRecordset['ordinal'] . "</p>";
+				// Parse Create and save Answer Object
+				$answerObject = new ParseObject("Answers");
+				$answerObject->set("answer", $row_AnswersRecordset['answer']);
+				$answerObject->set("question", $questionObject);
+				try {
+					if ($doSave) {
+						$answerObject->save();
+						echo 'New Answer object created with objectId: ' . $answerObject->getObjectId();
+					}
+				} catch (ParseException $ex) {  
+					// Execute any logic that should take place if the save fails.
+					// error is a ParseException object with an error code and message.
+					echo 'Failed to create Answer object, with error message: ' . $ex->getMessage();
+				}
+				
+				print "<p>Answer: ";
+				print $row_AnswersRecordset['answer'];
+				print "</p>";
+				print "<hr/>"; 
+				
+			} while ($row_AnswersRecordset = mysql_fetch_assoc($answersRecordsetQuery));
+		}
 		
 		
   } while ($row_Recordset1 = mysql_fetch_assoc($Recordset1));
@@ -166,7 +181,7 @@ $totalPages_Recordset1 = ceil($totalRows_Recordset1/$maxRows_Recordset1)-1;
   <?php do { ?>
   <tr>
     
-      <td><?php echo $row_Recordset1['id']; ?></td>
+      <td><?php echo $row_Recordset1['questionId']; ?></td>
       <td><?php echo $row_Recordset1['question']; ?></td>
       <td>&nbsp;</td>
   </tr>
